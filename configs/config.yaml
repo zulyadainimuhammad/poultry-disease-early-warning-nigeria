@@ -1,0 +1,23 @@
+project:
+  name: "poultry-disease-early-warning-nigeria"
+  title: "Machine Learning-Based Early Warning System for Poultry Disease Outbreaks in Nigeria"
+
+data:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+
+analysis:
+  time_frequency: "semester"
+  geographic_level: "administrative_division"
+  disease_level: "disease"
+
+modeling:
+  random_state: 42
+  test_size: 0.2
+  validation_strategy: "time-aware"
+
+paths:
+  models: "models"
+  figures: "reports/figures"
+  tables: "reports/tables"
