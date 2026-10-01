@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Machine Learning-Based Early Warning System for Poultry Disease Outbreaks in Nigeria"
+message: "If you use this repository, please cite the project and the final publication when available."
+type: software
+authors:
+  - family-names: "Aminu"
+    given-names: "Zulyadaini Muhammad"
+year: 2026
+repository-code: "https://github.com/zulyadainimuhammad/poultry-disease-early-warning-nigeria"
+license: "MIT"
