@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/README.md
+!data/interim/README.md
+!data/processed/README.md
+
+# Generated outputs
+models/*
+!models/.gitkeep
+reports/figures/*
+reports/tables/*
+!reports/figures/.gitkeep
+!reports/tables/.gitkeep
+
+# Secrets
+.env
+*.env
