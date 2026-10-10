@@ -44,3 +44,6 @@ reports/tables/*
 # Secrets
 .env
 *.env
+# Notebook/project security configuration.
+# Prevent the private CDS API credentials from being committed to Git.
+.cdsapirc
