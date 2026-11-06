@@ -1,8 +1,7 @@
 """Baseline modelling utilities.
 
-Only explicitly labelled rows are trainable. The module does not infer disease
-absence from missing surveillance records. Use a chronological holdout when a
-validated time index is available.
+Only explicitly labelled rows are trainable. Missing surveillance reports are
+not negative labels. Evaluation should use a chronological holdout.
 """
 from __future__ import annotations
 
@@ -25,6 +24,29 @@ class TrainingResult:
     training_rows: int
 
 
+def chronological_holdout(
+    df: pd.DataFrame, time_column: str, target_column: str, test_size: float = 0.2
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Split labelled data using later time periods as the test set."""
+    if not 0 < test_size < 1:
+        raise ValueError("test_size must be between 0 and 1.")
+    missing = {time_column, target_column}.difference(df.columns)
+    if missing:
+        raise ValueError(f"Missing required columns: {sorted(missing)}")
+    labelled = df.dropna(subset=[target_column, time_column]).copy()
+    periods = sorted(labelled[time_column].unique())
+    if len(periods) < 2:
+        raise ValueError("At least two distinct time periods are required.")
+    n_test = max(1, int(round(len(periods) * test_size)))
+    n_test = min(n_test, len(periods) - 1)
+    cutoff = periods[-n_test]
+    train = labelled[labelled[time_column] < cutoff].copy()
+    test = labelled[labelled[time_column] >= cutoff].copy()
+    if train.empty or test.empty:
+        raise ValueError("Chronological split produced an empty partition.")
+    return train, test
+
+
 def build_baseline_pipeline(numeric_features: list[str], categorical_features: list[str]) -> Pipeline:
     """Create a reproducible logistic-regression baseline pipeline."""
     transformers = []
@@ -45,9 +67,7 @@ def build_baseline_pipeline(numeric_features: list[str], categorical_features: l
     prep = ColumnTransformer(transformers, remainder="drop")
     return Pipeline([
         ("preprocess", prep),
-        ("classifier", LogisticRegression(
-            max_iter=2000, class_weight="balanced", random_state=42
-        )),
+        ("classifier", LogisticRegression(max_iter=2000, class_weight="balanced", random_state=42)),
     ])
 
 
@@ -72,9 +92,8 @@ def fit_baseline(
         raise ValueError("Binary baseline requires exactly two observed target classes.")
     if set(pd.Series(y.unique()).tolist()) != {0, 1}:
         raise ValueError("Target must be explicitly encoded as binary 0/1.")
-    X = labelled[features]
     pipeline = build_baseline_pipeline(numeric_features, categorical_features)
-    pipeline.fit(X, y)
+    pipeline.fit(labelled[features], y)
     return TrainingResult(pipeline, features, target_column, len(labelled))
 
 
