@@ -1,42 +1,29 @@
-"""Cleaning utilities for WAHIS poultry disease data."""
+"""Cleaning utilities for the WAHIS poultry disease export.
 
+Important: source records are not assumed to be independent outbreaks.
+Missing reporting values remain missing; they are never converted to zero.
+"""
 from __future__ import annotations
 
 import pandas as pd
 
 MISSING_MARKERS = {"-", "—", "", "NA", "N/A", "na", "n/a", "null", "None"}
 
-NUMERIC_COLUMNS = [
-    "new_outbreaks",
-    "susceptible",
-    "cases",
-    "killed_and_disposed_of",
-    "slaughtered",
-    "deaths",
-    "vaccinated",
-]
-
 COLUMN_MAP = {
-    "Year": "year",
-    "Semester": "semester",
-    "World region": "world_region",
-    "Country": "country",
-    "Administrative Division": "administrative_division",
-    "Disease": "disease",
-    "Serotype/Subtype/Genotype": "serotype_subtype_genotype",
-    "Animal Category": "animal_category",
-    "Event_id": "event_id",
-    "Species": "species",
-    "Outbreak_id": "outbreak_id",
-    "New outbreaks": "new_outbreaks",
-    "Susceptible": "susceptible",
-    "Measuring units": "measuring_units",
-    "Cases": "cases",
-    "Killed and disposed of": "killed_and_disposed_of",
-    "Slaughtered": "slaughtered",
-    "Deaths": "deaths",
-    "Vaccinated": "vaccinated",
+    "Year": "year", "Semester": "semester", "World region": "world_region",
+    "Country": "country", "Administrative Division": "administrative_division",
+    "Disease": "disease", "Serotype/Subtype/Genotype": "serotype_subtype_genotype",
+    "Animal Category": "animal_category", "Event_id": "event_id",
+    "Species": "species", "Outbreak_id": "outbreak_id",
+    "New outbreaks": "new_outbreaks", "Susceptible": "susceptible",
+    "Measuring units": "measuring_units", "Cases": "cases",
+    "Killed and disposed of": "killed_and_disposed_of", "Slaughtered": "slaughtered",
+    "Deaths": "deaths", "Vaccinated": "vaccinated",
 }
+NUMERIC_COLUMNS = [
+    "new_outbreaks", "susceptible", "cases", "killed_and_disposed_of",
+    "slaughtered", "deaths", "vaccinated",
+]
 
 
 def standardise_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -45,7 +32,7 @@ def standardise_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def replace_missing_markers(df: pd.DataFrame) -> pd.DataFrame:
-    """Convert WAHIS missing-value markers to pandas NA."""
+    """Convert explicit WAHIS missing markers to pandas NA."""
     out = df.copy()
     for col in out.select_dtypes(include=["object", "string"]).columns:
         out[col] = out[col].replace(list(MISSING_MARKERS), pd.NA)
@@ -53,7 +40,7 @@ def replace_missing_markers(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def convert_numeric_columns(df: pd.DataFrame) -> pd.DataFrame:
-    """Convert known quantitative fields to numeric values."""
+    """Convert quantitative values; invalid/missing values remain NA."""
     out = df.copy()
     for col in NUMERIC_COLUMNS:
         if col in out.columns:
@@ -64,33 +51,26 @@ def convert_numeric_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def clean_wahis(df: pd.DataFrame) -> pd.DataFrame:
-    """Apply the initial reproducible WAHIS cleaning rules."""
+    """Apply reproducible WAHIS cleaning without imputing disease absence."""
     out = standardise_columns(df)
     out = replace_missing_markers(out)
-
     for col in out.select_dtypes(include=["object", "string"]).columns:
         out[col] = out[col].astype("string").str.strip()
-
     out = convert_numeric_columns(out)
-
     if {"year", "semester"}.issubset(out.columns):
-        out["period"] = (
-            out["year"].astype("string") + " | " + out["semester"].astype("string")
-        )
-
+        out["period"] = out["year"].astype("string") + " | " + out["semester"].astype("string")
     return out
 
 
 def build_outbreak_candidate_table(df: pd.DataFrame) -> pd.DataFrame:
-    """Select rows suitable for initial outbreak-target validation.
+    """Return records with numeric outbreak counts and known geography.
 
-    This does not assert disease absence where an outbreak value is missing.
+    This is a candidate subset for audit, not a balanced modelling panel.
     """
     required = {"new_outbreaks", "administrative_division"}
     missing = required.difference(df.columns)
     if missing:
         raise ValueError(f"Missing required columns: {sorted(missing)}")
-
     mask = df["new_outbreaks"].notna() & df["administrative_division"].notna()
     out = df.loc[mask].copy()
     out["reported_outbreak"] = (out["new_outbreaks"] > 0).astype("int8")
