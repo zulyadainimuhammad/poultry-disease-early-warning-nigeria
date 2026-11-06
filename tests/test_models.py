@@ -21,6 +21,12 @@ def test_baseline_rejects_single_class_target():
         fit_baseline(df, "target", ["x"], [])
 
 
+def test_baseline_rejects_non_binary_target():
+    df = pd.DataFrame({"x": [1, 2, 3, 4], "target": [1, 1, 2, 2]})
+    with pytest.raises(ValueError):
+        fit_baseline(df, "target", ["x"], [])
+
+
 def test_classification_metrics_include_pr_auc():
     metrics = classification_metrics([0, 0, 1, 1], [0, 1, 1, 1], [0.1, 0.6, 0.7, 0.9])
     assert metrics["recall"] == 1.0
