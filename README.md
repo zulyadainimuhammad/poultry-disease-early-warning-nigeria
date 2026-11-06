@@ -1,171 +1,152 @@
 # Machine Learning-Based Early Warning System for Poultry Disease Outbreaks in Nigeria
 
-## Project Overview
+**Research focus:** Evidence-led analysis of poultry disease surveillance data, climate and environmental context, and potential early-warning indicators in Nigeria.
 
-This repository contains the research implementation for:
+**Repository owner:** Zulyadaini Muhammad Aminu  
+**Status:** Reproducible data-engineering and validation workflow under development. A validated predictive model and operational alert system have **not** yet been established.
 
-**Machine Learning-Based Early Warning System for Poultry Disease Outbreaks in Nigeria**
+## 1. Research problem
 
-The project investigates whether climatic and environmental variables, combined with historical poultry disease records, can be used to predict poultry disease outbreak risk in Nigeria.
+Poultry disease outbreaks threaten animal health, farm livelihoods, food supply and the resilience of Nigeria's poultry value chain. This project investigates whether historical disease surveillance records, combined with suitable climate, environmental and geographic data, can support earlier identification of elevated outbreak risk.
 
-This is an individual six-week data science fellowship research project. The analytical scope will remain evidence-driven: disease selection, prediction target, geographical granularity, modelling period, and final feature set will be determined after systematic inspection and validation of the available data.
+The project is guided by one question:
 
-## Core Research Question
+> Can available poultry disease surveillance, climate and environmental data support reliable, geographically meaningful early-warning signals in Nigeria?
 
-> Can climatic and environmental variables, combined with historical poultry disease records, be used to predict poultry disease outbreak risk in Nigeria?
+The analysis will be evidence-driven. The disease scope, prediction horizon, geographic unit, target definition and final feature set must be justified from the coverage and quality of the available data.
 
-## Supporting Questions
+## 2. Current data evidence and limitations
 
-1. What temporal and geographic patterns are present in reported poultry disease records?
-2. Which climate and environmental variables are associated with changes in reported outbreak patterns?
-3. How accurately can machine learning models predict outbreak risk?
-4. Which features contribute most to model predictions?
-5. How can model outputs be communicated as interpretable geographic risk information?
+The initial source is a WOAH/WAHIS quantitative export supplied for this research. The audit recorded:
 
-## Aim
+- 1,180 raw source records and 19 columns;
+- reporting years 2005–2025;
+- semester reporting periods (Jan-Jun and Jul-Dec);
+- 39 administrative divisions in the export;
+- 444 candidate rows with numeric reported outbreak counts and known administrative geography;
+- numeric outbreak-count observations in the export beginning in 2020;
+- four disease categories with numeric outbreak observations in the candidate period.
 
-To develop and evaluate a machine learning framework for predicting poultry disease outbreak risk in Nigeria using historical disease, climate, environmental, and geographic data.
+These are source-export audit findings, not estimates of national disease incidence. The 444 candidate rows are not a balanced training panel.
 
-## Objectives
+### Non-negotiable interpretation rules
 
-- Identify and integrate relevant disease, climate, environmental, and geographic datasets.
-- Characterise temporal and geographic patterns in reported poultry disease.
-- Engineer appropriate temporal, climate, environmental, and historical-disease features.
-- Develop and compare suitable statistical and machine learning baselines/models.
-- Evaluate predictive performance using metrics appropriate for the data and class balance.
-- Apply model explainability techniques to understand predictive features.
-- Develop a prototype risk visualisation for communicating model outputs.
+1. A WAHIS dash (-) is treated as missing, not zero.
+2. A missing report is not evidence that disease was absent.
+3. An unobserved geography-period-disease combination is not automatically added as a negative example.
+4. Multiple source rows for a key are not blindly summed. They may describe different reporting records or measures.
+5. A predictive target must be defined and justified before model training.
+6. Predictors must be available at the intended warning time. Future information and post-outbreak measurements must not leak into the model.
 
-## Current Data
+Raw surveillance data is excluded from this public repository. Keep the original export locally in data/raw/ and check the applicable data-use and redistribution terms before sharing it.
 
-The initial disease dataset is a WAHIS export covering Nigerian poultry disease records.
+## 3. Implemented components
 
-Current audit findings from the supplied export:
-- 1,180 raw records
-- 19 columns
-- Years represented: 2005–2025
-- 6 poultry disease categories
-- 39 administrative divisions represented
-- 444 candidate records with numeric reported outbreak counts and known administrative geography
-- Candidate numeric-outbreak records occur in 2020–2025
-- The WAHIS temporal structure is semester-based (January–June and July–December)
+- WAHIS column standardisation and missing-marker handling.
+- Numeric conversion that preserves missing values.
+- Candidate extraction for rows with numeric outbreak counts and known geography.
+- Semester validation and duplicate checks.
+- Conservative observed-panel construction at Administrative Division × Semester × Disease.
+- Ambiguity flags where multiple distinct quantitative values occur within one panel key.
+- Semester calendar features and grouped lag-feature utilities.
+- A logistic-regression baseline pipeline requiring an explicitly validated binary target.
+- Chronological holdout splitting and classification metrics including precision, recall, F1, ROC-AUC and PR-AUC where defined.
+- Command-line scripts for building the observed panel and training a baseline.
+- Automated tests and GitHub Actions test workflow.
 
-The current analytical design is therefore being validated around **Administrative Division × Semester × Disease** before climate integration and modelling.
+## 4. Repository layout
 
-### Important data interpretation rule
+~~~text
+configs/                 Project configuration
+data/raw/                Local source exports (not committed)
+data/interim/            Local intermediate datasets (not committed)
+data/processed/          Local validated outputs (not committed)
+notebooks/               Research notebooks and analysis sequence
+src/data/                Ingestion, cleaning, validation and panel construction
+src/features/            Time and lag feature engineering
+src/models/               Baseline training, prediction and evaluation
+scripts/                  Reproducible command-line entry points
+tests/                    Unit and regression tests
+reports/                  Research checkpoints and generated report locations
+models/                   Locally saved model artefacts (not committed)
+~~~
 
-A missing or non-reported outbreak value must not automatically be interpreted as zero disease occurrence. In particular, **no reported outbreak is not equivalent to confirmed disease absence**.
+## 5. Local setup
 
-## Data Sources
+Python 3.11 is the supported development version.
 
-The project will document and version the provenance of each external dataset used, including where applicable:
-- World Organisation for Animal Health (WOAH) World Animal Health Information System (WAHIS)
-- Climate datasets such as ERA5, NASA POWER, or CHIRPS, subject to data suitability and availability
-- Environmental and geographic datasets
-- Relevant Nigerian agricultural or poultry population data where justified
+### Windows PowerShell
 
-Raw external data will not be committed to this public repository unless redistribution and licensing conditions have been checked.
+~~~powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+pytest -q
+~~~
 
-## Methodological Workflow
+### macOS / Linux
 
-1. Data sourcing and provenance
-2. Data inspection and audit
-3. Data cleaning
-4. Analytical-table construction and validation
-5. Exploratory data analysis
-6. Climate/environment integration
-7. Feature engineering and leakage checks
-8. Baseline modelling
-9. Machine learning model development
-10. Model evaluation and calibration where appropriate
-11. Explainability
-12. Risk visualisation
-13. Research reporting and reproducibility
+~~~bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+pytest -q
+~~~
 
-A genuine early-warning setup requires predictors to be available before the prediction period. Lagged climate variables and historical disease activity will therefore be considered where supported by the data.
+## 6. Build the observed WAHIS panel
 
-## Candidate Modelling Approach
+Place the authorised source export in the local data/raw/ directory. Then run:
 
-Models will be selected based on the validated target and data structure rather than complexity alone. Potential approaches include:
-- Logistic regression as a baseline for binary occurrence
-- Random Forest
-- XGBoost
-- LightGBM where justified and available
-- Temporal/deep-learning approaches only if the data volume and temporal structure support them
+~~~bash
+python scripts/build_panel.py --input "data/raw/your_wahis_export.csv"
+~~~
 
-Potential evaluation metrics include:
-- Precision
-- Recall
-- F1-score
-- ROC-AUC
-- PR-AUC
-- Confusion matrix
-- Calibration measures where appropriate
+The default output is data/processed/wahis_observed_panel.csv. The script validates the semester labels and duplicate rows, standardises fields and constructs only observed geography-period-disease keys. It does not fill unobserved keys or impute missing outbreak counts as zero.
 
-Accuracy alone will not be treated as sufficient for imbalanced outcomes.
+## 7. Train a baseline only after target validation
 
-## Repository Structure
+The training command requires a researcher-defined binary target encoded as 0/1 and a time column. The input should contain only features available before the forecast period.
 
-```
-poultry-disease-early-warning-nigeria/
-├── data/
-│   ├── raw/
-│   │   └── README.md
-│   ├── interim/
-│   │   └── README.md
-│   └── processed/
-│       └── README.md
-├── notebooks/
-│   ├── 01_WAHIS_Data_Audit.ipynb
-│   ├── 02_WAHIS_Data_Cleaning.ipynb
-│   ├── 03_WAHIS_Analytical_Table.ipynb
-│   ├── 04_Climate_Data_Exploration.ipynb
-│   ├── 05_Data_Integration.ipynb
-│   ├── 06_Feature_Engineering.ipynb
-│   ├── 07_Baseline_Model.ipynb
-│   ├── 08_Machine_Learning_Models.ipynb
-│   ├── 09_Model_Evaluation.ipynb
-│   └── 10_Explainability_and_Risk_Mapping.ipynb
-├── src/
-│   ├── data/
-│   ├── features/
-│   └── models/
-├── tests/
-├── configs/
-├── models/
-├── reports/
-│   ├── figures/
-│   └── tables/
-├── .github/
-│   └── workflows/
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── CITATION.cff
-```
+~~~bash
+python scripts/train_baseline.py \
+  --input data/processed/researcher_validated_model_table.csv \
+  --target validated_target \
+  --time-column time_index \
+  --numeric lagged_outbreak_measure,rainfall_lagged \
+  --categorical administrative_division,disease \
+  --test-size 0.2
+~~~
 
-## Reproducibility
+The later time periods are reserved for testing. The example feature names are illustrative only; do not use a feature unless its provenance, timing, units and availability have been checked. The target must not be created by treating missing WAHIS reports as negative events.
 
-The project is being built as a reproducible research workflow rather than a single exploratory notebook. Data provenance, cleaning rules, validation checks, modelling assumptions, and evaluation decisions will be documented as the work progresses.
+The script saves a fitted baseline bundle under models/baseline.joblib and reports holdout metrics. A fitted model is not automatically a valid early-warning system. Report performance only after checking label quality, temporal separation, geographic leakage, surveillance bias, class balance and calibration.
 
-## Limitations to Track
+## 8. Planned research stages
 
-Important limitations will be documented rather than hidden, including:
-- reporting coverage and surveillance differences across locations and periods
-- diagnostic and reporting availability
-- changes in reporting practices over time
-- incomplete administrative detail in source data
-- class imbalance
-- uncertainty associated with unreported or missing observations
-- data leakage risk when constructing early-warning features
+1. Complete WAHIS data audit and source documentation.
+2. Validate administrative geography and boundaries.
+3. Acquire and document climate/environmental data at defensible spatial and temporal resolutions.
+4. Integrate data only after geographic and time alignment checks.
+5. Define an outcome and warning horizon that the surveillance data can support.
+6. Engineer only predictors available before the warning period.
+7. Compare simple baselines with suitable machine-learning models.
+8. Evaluate with chronological and, where data permits, geographic holdouts.
+9. Explain model behaviour and quantify uncertainty.
+10. Build a prototype risk communication interface only if the underlying model is sufficiently validated.
+11. Document limitations and obtain domain-expert feedback.
 
-## Project Status
+## 9. Research integrity and limitations
 
-**Phase:** Repository and data-validation setup
+The source data may reflect differences in surveillance intensity, reporting completeness, diagnostic capacity, administrative coverage and changes in reporting practice. These factors can create apparent geographic or temporal patterns unrelated to true disease risk.
 
-**Next research step:** Validate the WAHIS analytical table at Administrative Division × Semester × Disease level and finalise the prediction target from the observed data structure.
+Until suitable negative observations, reporting denominators or a defensible outcome definition are available, the work may support descriptive surveillance analysis rather than supervised outbreak prediction. Climate association is not, by itself, proof of causation. Any future risk scores must be labelled as research outputs, not veterinary diagnosis or official outbreak alerts.
 
-## Citation
+## 10. Current status
 
-When the study is formally published, this repository will be updated with the final bibliographic citation and research DOI where applicable.
+**Completed:** Initial WAHIS structural audit; cleaning and validation utilities; conservative observed-panel builder; feature utilities; baseline modelling/evaluation utilities; unit-test coverage and reproducible command-line entry points.
+
+**Not yet completed:** Publicly reproducible execution against the private WAHIS export; validated geographic-boundary linkage; climate/environment integration; final target and forecast horizon; empirically evaluated model; explainability report; risk map; deployed dashboard or alerting service.
+
+The next practical input required to move from engineering to empirical modelling is the original WAHIS CSV export, plus the documentation/licensing details for the intended climate and geographic datasets.
