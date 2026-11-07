@@ -96,6 +96,215 @@ def fit_baseline(
     pipeline.fit(labelled[features], y)
     return TrainingResult(pipeline, features, target_column, len(labelled))
 
+def rolling_origin_splits(
+    df: pd.DataFrame,
+    time_column: str,
+    target_column: str,
+    min_train_periods: int = 2,
+    test_periods: int = 1,
+) -> list[tuple[pd.DataFrame, pd.DataFrame]]:
+    """
+    Create expanding-window chronological train/test splits.
+
+    Rolling-origin validation is designed for time-dependent data.
+    Instead of randomly splitting the dataset, each validation fold
+    trains on earlier periods and tests on a later period.
+
+    Example:
+
+        Periods: 2020, 2021, 2022, 2023, 2024
+
+        Fold 1:
+            Train -> 2020, 2021
+            Test  -> 2022
+
+        Fold 2:
+            Train -> 2020, 2021, 2022
+            Test  -> 2023
+
+        Fold 3:
+            Train -> 2020, 2021, 2022, 2023
+            Test  -> 2024
+
+    Important methodological rules:
+
+    1. Only rows with an observed target are used.
+       Missing targets are NOT treated as negative labels.
+
+    2. Training data always comes from periods before
+       the test period.
+
+    3. The training window expands as we move forward
+       through time.
+
+    4. No future observations are allowed to leak into
+       an earlier training fold.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Input dataframe containing the time and target columns.
+
+    time_column : str
+        Name of the chronological time/period column.
+
+    target_column : str
+        Name of the binary target column.
+
+    min_train_periods : int, default=2
+        Minimum number of chronological periods required
+        for the first training window.
+
+    test_periods : int, default=1
+        Number of chronological periods used for each
+        validation/test window.
+
+    Returns
+    -------
+    list[tuple[pd.DataFrame, pd.DataFrame]]
+        A list of (train, test) dataframe pairs.
+
+    Raises
+    ------
+    ValueError
+        If the input is invalid or there are not enough
+        time periods to create at least one fold.
+    """
+
+    # ---------------------------------------------------------
+    # 1. Validate the minimum training-window size
+    # ---------------------------------------------------------
+    if min_train_periods < 1:
+        raise ValueError(
+            "min_train_periods must be at least 1."
+        )
+
+    # ---------------------------------------------------------
+    # 2. Validate the number of test periods
+    # ---------------------------------------------------------
+    if test_periods < 1:
+        raise ValueError(
+            "test_periods must be at least 1."
+        )
+
+    # ---------------------------------------------------------
+    # 3. Make sure the required columns exist
+    # ---------------------------------------------------------
+    missing = {
+        time_column,
+        target_column,
+    }.difference(df.columns)
+
+    if missing:
+        raise ValueError(
+            f"Missing required columns: {sorted(missing)}"
+        )
+
+    # ---------------------------------------------------------
+    # 4. Keep only explicitly labelled observations
+    #
+    # Missing target values are NOT interpreted as zero.
+    # This is important for the WAHIS surveillance data because
+    # an unreported observation does not necessarily mean
+    # that no disease outbreak occurred.
+    # ---------------------------------------------------------
+    labelled = df.dropna(
+        subset=[target_column, time_column]
+    ).copy()
+
+    # ---------------------------------------------------------
+    # 5. Identify the unique chronological periods
+    #
+    # sorted() ensures that the validation process moves
+    # forward through time rather than using a random order.
+    # ---------------------------------------------------------
+    periods = sorted(
+        labelled[time_column].unique()
+    )
+
+    # ---------------------------------------------------------
+    # 6. Check that enough periods exist
+    #
+    # Example:
+    # min_train_periods = 2
+    # test_periods = 1
+    #
+    # We need at least:
+    # 2 training periods + 1 test period = 3 periods
+    # ---------------------------------------------------------
+    if len(periods) < min_train_periods + test_periods:
+        raise ValueError(
+            "Not enough distinct time periods for "
+            "rolling-origin validation."
+        )
+
+    # ---------------------------------------------------------
+    # 7. Create the expanding training/test windows
+    # ---------------------------------------------------------
+    splits = []
+
+    for train_end in range(
+        min_train_periods,
+        len(periods) - test_periods + 1,
+    ):
+        # ---------------------------------------------
+        # Training periods:
+        # start from the earliest period and expand
+        # the training window at every fold.
+        # ---------------------------------------------
+        train_periods = periods[:train_end]
+
+        # ---------------------------------------------
+        # Test periods:
+        # immediately follow the training periods.
+        # ---------------------------------------------
+        test_periods_values = periods[
+            train_end:train_end + test_periods
+        ]
+
+        # ---------------------------------------------
+        # Select the actual observations belonging
+        # to the training periods.
+        # ---------------------------------------------
+        train = labelled[
+            labelled[time_column].isin(train_periods)
+        ].copy()
+
+        # ---------------------------------------------
+        # Select the actual observations belonging
+        # to the test periods.
+        # ---------------------------------------------
+        test = labelled[
+            labelled[time_column].isin(test_periods_values)
+        ].copy()
+
+        # ---------------------------------------------
+        # Safety check:
+        # never return an empty training or test fold.
+        # ---------------------------------------------
+        if train.empty or test.empty:
+            continue
+
+        # ---------------------------------------------
+        # Store this fold.
+        # ---------------------------------------------
+        splits.append(
+            (train, test)
+        )
+
+    # ---------------------------------------------------------
+    # 8. Final safety check
+    # ---------------------------------------------------------
+    if not splits:
+        raise ValueError(
+            "Rolling-origin validation produced "
+            "no valid folds."
+        )
+
+    # ---------------------------------------------------------
+    # 9. Return all chronological folds
+    # ---------------------------------------------------------
+    return splits
 
 def save_model(result: TrainingResult, path: str | Path) -> None:
     """Persist model and metadata with joblib."""
