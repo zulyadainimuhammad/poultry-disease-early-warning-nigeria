@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "name": "Random Forest",
+    "version": "1.0.0",
+    "type": "RandomForestRegressor"
+  },
+  "target": {
+    "name": "target_outbreak_count",
+    "type": "numeric",
+    "description": "Predicted outbreak count"
+  },
+  "features": {
+    "count": 27,
+    "ordered_names": [
+      "year",
+      "semester_order",
+      "is_first_semester",
+      "is_second_semester",
+      "semester_sin",
+      "semester_cos",
+      "years_since_2019",
+      "year_sin",
+      "year_cos",
+      "has_adm1",
+      "is_country_level",
+      "disease_code",
+      "previous_semester_outbreak_count",
+      "two_semesters_prior_outbreak_count",
+      "outbreak_history_mean_3",
+      "outbreak_history_max_3",
+      "climate_available",
+      "temperature_missing",
+      "dewpoint_missing",
+      "precipitation_missing",
+      "wind_missing",
+      "climate_variable_count",
+      "climate_complete",
+      "temperature_c",
+      "dewpoint_c",
+      "semester_total_precipitation_mm",
+      "semester_mean_wind_component_magnitude_ms"
+    ]
+  },
+  "training": {
+    "records": 445,
+    "start_temporal_period": 4041,
+    "end_temporal_period": 4052
+  },
+  "validation": {
+    "method": "rolling_origin_temporal_validation",
+    "folds": 8,
+    "mean_mae": 6.533,
+    "mean_rmse": 11.603
+  },
+  "input_requirements": {
+    "required_columns": [
+      "year",
+      "semester_order",
+      "is_first_semester",
+      "is_second_semester",
+      "semester_sin",
+      "semester_cos",
+      "years_since_2019",
+      "year_sin",
+      "year_cos",
+      "has_adm1",
+      "is_country_level",
+      "disease_code",
+      "previous_semester_outbreak_count",
+      "two_semesters_prior_outbreak_count",
+      "outbreak_history_mean_3",
+      "outbreak_history_max_3",
+      "climate_available",
+      "temperature_missing",
+      "dewpoint_missing",
+      "precipitation_missing",
+      "wind_missing",
+      "climate_variable_count",
+      "climate_complete",
+      "temperature_c",
+      "dewpoint_c",
+      "semester_total_precipitation_mm",
+      "semester_mean_wind_component_magnitude_ms"
+    ],
+    "column_order_required": true,
+    "missing_columns_allowed": false,
+    "extra_columns_allowed": true
+  }
+}
