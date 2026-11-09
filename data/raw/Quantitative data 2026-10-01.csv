@@ -1,0 +1,1181 @@
+﻿Year,Semester,World region,Country,Administrative Division,Disease,Serotype/Subtype/Genotype,Animal Category,Event_id,Species,Outbreak_id,New outbreaks,Susceptible,Measuring units,Cases,Killed and disposed of,Slaughtered,Deaths,Vaccinated
+2005,Jul-Dec 2005,Africa,Nigeria,"Nigeria","Fowl pox (-2005)","",Domestic,-,"Birds",-,-,90,Animal,60,0,0,0,0
+2005,Jul-Dec 2005,Africa,Nigeria,"Nigeria","Fowl typhoid","",Domestic,-,"Birds",-,-,1000,Animal,800,0,0,25,0
+2005,Jul-Dec 2005,Africa,Nigeria,"Nigeria","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,200,Animal,10,0,0,0,0
+2005,Jul-Dec 2005,Africa,Nigeria,"Nigeria","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,22100,Animal,3527,0,800,2076,0
+2005,Jan-Jun 2005,Africa,Nigeria,"Nigeria","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8100,Animal,3430,0,0,912,13000
+2007,Jul-Dec 2007,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,300,Animal,-,0,0,25,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Adamawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,213,Animal,-,-,-,32,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,2040,Animal,969,0,55,545,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,85,Animal,922,0,-,297,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Delta","Fowl typhoid","",Domestic,-,"Birds",-,-,350,Animal,50,0,-,20,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,870,Animal,540,0,-,210,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Ebonyi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,-,-,-,-,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2820,Animal,1113,0,-,237,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"Birds",-,-,-,Animal,271,-,-,5,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,-,Animal,2253,-,-,80,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,-,-,-,100,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,520,Animal,520,0,205,287,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,1050,-,-,10,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,690,Animal,100,0,-,4,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Lagos","Fowl typhoid","",Domestic,-,"Birds",-,-,18900,Animal,14470,0,180,600,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Lagos","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,1000,Animal,-,0,-,100,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Lagos","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4450,Animal,395,0,-,269,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,-,Animal,106,-,-,29,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,27,-,-,7,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4450,Animal,7,5,-,-,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Oyo","Fowl typhoid","",Domestic,-,"Birds",-,-,500,Animal,15,0,-,12,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,100,Animal,12,-,-,7,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,70,-,-,36,-
+2008,Jan-Jun 2008,Africa,Nigeria,"Taraba","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,100,Animal,100,-,-,60,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Anambra","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,4000,Animal,100,0,8,-,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,700,Animal,433,0,0,315,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,1680,Animal,980,0,-,912,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3350,Animal,203,1,0,21,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Federal Capital Territory","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,200,Animal,100,0,-,18,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"Birds",-,-,-,Animal,2000,0,-,25,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,500,-,-,200,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,158,Animal,158,0,15,79,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Kano","Fowl typhoid","",Domestic,-,"Birds",-,-,-,Animal,50,0,-,12,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,6926,0,-,426,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Lagos","Fowl typhoid","",Domestic,-,"Birds",-,-,1000,Animal,20,0,-,20,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Lagos","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,3800,Animal,3800,0,-,520,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Nasarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,600,-,-,57,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Osun","Fowl cholera (-2011)","",Domestic,-,"Birds",-,-,500,Animal,20,0,1,1,0
+2008,Jul-Dec 2008,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2000,Animal,250,0,-,2,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Plateau","Fowl cholera (-2011)","",Domestic,-,"Birds",-,-,-,Animal,280,0,0,280,0
+2008,Jul-Dec 2008,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,-,Animal,50,0,0,50,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,-,-,-,-,-
+2008,Jul-Dec 2008,Africa,Nigeria,"Taraba","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,50,Animal,20,0,4,20,-
+2009,Jan-Jun 2009,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,500,Animal,250,0,-,250,-
+2009,Jan-Jun 2009,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,810,Animal,270,0,-,133,-
+2009,Jan-Jun 2009,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,1000,Animal,120,0,0,18,-
+2009,Jan-Jun 2009,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,265,Animal,265,0,-,10,-
+2009,Jan-Jun 2009,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,15950,Animal,6575,52,0,2048,1400
+2009,Jan-Jun 2009,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,27,Animal,27,0,-,0,-
+2009,Jan-Jun 2009,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1595,Animal,920,0,-,331,1000
+2009,Jan-Jun 2009,Africa,Nigeria,"Kano","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,3000,Animal,80,0,-,34,-
+2009,Jan-Jun 2009,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5460,Animal,59,0,-,35,1200
+2009,Jan-Jun 2009,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6426,Animal,1268,0,-,102,-
+2009,Jan-Jun 2009,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,-,Animal,-,-,-,-,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,2206,Animal,900,0,82,0,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,200,Animal,40,0,0,6,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2000,Animal,10,0,0,2,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,420,Animal,-,0,0,-,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,168,Animal,-,0,0,20,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1000,Animal,-,-,-,-,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,-,Animal,-,-,-,-,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,-,Animal,-,-,-,-,-
+2009,Jul-Dec 2009,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,270,Animal,132,0,5,23,-
+2010,Jan-Jun 2010,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,23,Animal,21,4,0,17,-
+2010,Jan-Jun 2010,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,880,Animal,555,0,213,251,-
+2010,Jan-Jun 2010,Africa,Nigeria,"Niger","Fowl typhoid","",Domestic,-,"Birds",-,-,200,Animal,6,0,1,5,-
+2010,Jan-Jun 2010,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,500,Animal,310,0,0,155,-
+2010,Jan-Jun 2010,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,150,Animal,80,0,0,20,-
+2010,Jan-Jun 2010,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,332,Animal,167,0,7,24,-
+2010,Jan-Jun 2010,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,155,Animal,42,0,10,20,-
+2010,Jan-Jun 2010,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,600,Animal,260,0,60,105,-
+2010,Jul-Dec 2010,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,1060,Animal,150,0,1,1,0
+2010,Jul-Dec 2010,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,25,Animal,15,0,3,8,0
+2010,Jul-Dec 2010,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,33,Animal,23,0,0,13,0
+2010,Jul-Dec 2010,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,100,Animal,5,0,0,2,0
+2010,Jul-Dec 2010,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,530,Animal,315,0,2,39,0
+2010,Jul-Dec 2010,Africa,Nigeria,"Sokoto","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,252,Animal,252,0,0,252,0
+2010,Jul-Dec 2010,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,120,Animal,70,2,2,4,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1500,Animal,-,0,0,100,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,800,Animal,800,0,0,100,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"Birds",-,-,3000,Animal,350,25,27,23,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2500,Animal,500,0,150,50,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Imo","Fowl typhoid","",Domestic,-,"Birds",-,-,300,Animal,25,0,0,23,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,800,Animal,94,0,0,78,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3200,Animal,759,0,29,730,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Ondo","Fowl typhoid","",Domestic,-,"Birds",-,-,100,Animal,10,0,0,5,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,1240,Animal,318,11,0,148,0
+2011,Jan-Jun 2011,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7120,Animal,207,0,2,116,300
+2011,Jan-Jun 2011,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,80,Animal,8,4,0,4,0
+2011,Jul-Dec 2011,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1350,Animal,85,8,3,7,0
+2011,Jul-Dec 2011,Africa,Nigeria,"Osun","Fowl typhoid","",Domestic,-,"Birds",-,-,2500,Animal,700,0,0,250,0
+2011,Jul-Dec 2011,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,815,Animal,25,0,0,8,0
+2011,Jul-Dec 2011,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1129,Animal,65,4,0,30,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Adamawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,48,Animal,9,0,1,8,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,400,Animal,350,0,0,280,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,1500,Animal,700,0,0,60,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,11700,Animal,2988,0,0,63,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"Birds",-,-,559,Animal,180,0,82,68,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,208,Animal,11,0,0,2,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,12000,Animal,2000,0,0,900,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,10000,Animal,7024,0,0,6019,9000
+2012,Jan-Jun 2012,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1300,Animal,140,0,4,24,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,2595,Animal,113,0,0,52,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4309,Animal,170,0,0,76,0
+2012,Jan-Jun 2012,Africa,Nigeria,"Yobe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,300,Animal,100,0,0,15,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,2500,Animal,50,0,0,50,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,29600,Animal,5049,10,0,66,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,60,Animal,60,0,0,35,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,13425,Animal,1046,0,0,871,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2413,Animal,2413,0,32,213,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Osun","Fowl typhoid","",Domestic,-,"Birds",-,-,200,Animal,10,0,0,8,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,6050,Animal,1100,0,0,441,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3552,Animal,482,15,0,64,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,930,Animal,240,0,0,75,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,100,Animal,11,0,10,0,0
+2012,Jul-Dec 2012,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7070,Animal,6970,0,40,1020,0
+2013,Jan-Jun 2013,Africa,Nigeria,"Anambra","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,290,Animal,281,239,-,40,0
+2013,Jan-Jun 2013,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,250,Animal,5,-,-,-,0
+2013,Jan-Jun 2013,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,500,Animal,10,0,6,4,0
+2013,Jan-Jun 2013,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,300,Animal,10,-,-,-,0
+2013,Jan-Jun 2013,Africa,Nigeria,"Osun","Fowl typhoid","",Domestic,-,"Birds",-,-,5000,Animal,14,0,0,8,0
+2013,Jan-Jun 2013,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,3657,Animal,83,0,0,23,0
+2013,Jan-Jun 2013,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8958,Animal,411,20,0,130,2727
+2013,Jan-Jun 2013,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,3600,Animal,645,0,0,338,0
+2013,Jan-Jun 2013,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2024,Animal,190,20,4,75,14866
+2013,Jul-Dec 2013,Africa,Nigeria,"Cross River","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,60000,Animal,-,0,0,150,0
+2013,Jul-Dec 2013,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,230500,Animal,170,0,0,80,0
+2013,Jul-Dec 2013,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,22050,Animal,632,0,0,58,15000
+2013,Jul-Dec 2013,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,750,Animal,94,0,0,46,0
+2013,Jul-Dec 2013,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,15,Animal,8,0,0,5,0
+2013,Jul-Dec 2013,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,2475,Animal,76,0,0,11,0
+2013,Jul-Dec 2013,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6216,Animal,331,80,0,111,0
+2014,Jan-Jun 2014,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,37000,Animal,28,0,0,26,19000
+2014,Jan-Jun 2014,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,77000,Animal,240,0,72,158,64000
+2014,Jan-Jun 2014,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,8828,Animal,1107,0,0,557,0
+2014,Jan-Jun 2014,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6271,Animal,711,0,5,302,0
+2014,Jul-Dec 2014,Africa,Nigeria,"Adamawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,200,Animal,100,0,0,20,0
+2014,Jul-Dec 2014,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8500,Animal,140,0,0,7,0
+2014,Jul-Dec 2014,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1078,Animal,41,0,0,4,0
+2014,Jul-Dec 2014,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,4028,Animal,657,0,0,180,0
+2014,Jul-Dec 2014,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2907,Animal,218,0,0,60,0
+2014,Jul-Dec 2014,Africa,Nigeria,"Taraba","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,55,Animal,30,5,5,5,0
+2015,Jan-Jun 2015,Africa,Nigeria,"Adamawa","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,98,Animal,98,0,0,84,0
+2015,Jan-Jun 2015,Africa,Nigeria,"Adamawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,20,Animal,14,0,11,0,0
+2015,Jan-Jun 2015,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,500,Animal,370,0,0,125,0
+2015,Jan-Jun 2015,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,1100,Animal,550,0,0,150,5972
+2015,Jan-Jun 2015,Africa,Nigeria,"Ondo","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,150,Animal,150,0,0,20,0
+2015,Jan-Jun 2015,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,2733,Animal,125,0,0,58,0
+2015,Jan-Jun 2015,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6802,Animal,145,0,0,38,1000
+2015,Jul-Dec 2015,Africa,Nigeria,"Adamawa","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,45,Animal,45,0,36,7,0
+2015,Jul-Dec 2015,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,280,Animal,26,0,1,3,0
+2015,Jul-Dec 2015,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,500,Animal,65,4,5,20,510
+2015,Jul-Dec 2015,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,634,Animal,4,0,0,3,0
+2015,Jul-Dec 2015,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1000,Animal,100,0,0,10,0
+2016,Jan-Jun 2016,Africa,Nigeria,"Adamawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,38,Animal,3,0,0,1,0
+2016,Jan-Jun 2016,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,335,Animal,53,0,9,11,0
+2016,Jul-Dec 2016,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,250,Animal,20,0,0,0,0
+2016,Jul-Dec 2016,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,440,Animal,17,0,9,8,0
+2017,Jan-Jun 2017,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,18700,Animal,224,0,0,24,0
+2017,Jan-Jun 2017,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,500,Animal,30,0,0,2,0
+2017,Jan-Jun 2017,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,200,Animal,20,0,0,12,0
+2017,Jan-Jun 2017,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,500,Animal,20,0,0,12,0
+2017,Jan-Jun 2017,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5,Animal,1,0,0,1,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,150,Animal,100,0,0,40,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Bauchi","Fowl typhoid","",Domestic,-,"Birds",-,-,104,Animal,32,0,10,3,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,50,Animal,50,0,0,0,50
+2017,Jul-Dec 2017,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,60,Animal,14,0,0,5,41
+2017,Jul-Dec 2017,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3,Animal,3,0,0,0,200
+2017,Jul-Dec 2017,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,400,Animal,100,0,12,32,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,10,Animal,2,0,0,0,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,1095,Animal,1095,0,36,379,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4310,Animal,3620,0,9,65,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Ondo","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,200,Animal,200,0,0,2,198
+2017,Jul-Dec 2017,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,1320,Animal,91,0,0,23,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,-,Animal,10,0,0,5,0
+2017,Jul-Dec 2017,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,650,Animal,49,0,10,15,0
+2018,Jan-Jun 2018,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,48,Animal,48,0,0,0,0
+2018,Jan-Jun 2018,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,200,Animal,20,0,0,2,0
+2018,Jan-Jun 2018,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,52000,Animal,1100,0,50,70,49990
+2018,Jan-Jun 2018,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,2817,Animal,2360,0,50,196,0
+2018,Jan-Jun 2018,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,501,Animal,121,0,0,32,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,-,Animal,22,0,0,5,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,100,Animal,10,0,0,0,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"Birds",-,-,187,Animal,18,0,0,6,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,800,Animal,27,0,0,10,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Katsina","Fowl typhoid","",Domestic,-,"Birds",-,-,50,Animal,10,0,1,1,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,2800,Animal,279,0,0,36,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,3310,Animal,1900,0,0,916,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,-,Animal,53,0,0,6,0
+2018,Jul-Dec 2018,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,3200,Animal,355,0,0,205,0
+2019,Jan-Jun 2019,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,-,Animal,7,0,0,7,0
+2019,Jan-Jun 2019,Africa,Nigeria,"Borno","Fowl typhoid","",Domestic,-,"Birds",-,-,250,Animal,200,100,70,20,10
+2019,Jan-Jun 2019,Africa,Nigeria,"Borno","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,440,Animal,219,94,0,120,198
+2019,Jan-Jun 2019,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,50,Animal,10,0,0,3,0
+2019,Jan-Jun 2019,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,705,Animal,707,0,1,8,0
+2019,Jan-Jun 2019,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,5827,Animal,3350,0,280,660,0
+2019,Jan-Jun 2019,Africa,Nigeria,"Nasarawa","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,8500,Animal,4,0,0,4,0
+2019,Jan-Jun 2019,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,5533,Animal,194,0,0,66,0
+2019,Jan-Jun 2019,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,815,Animal,24,0,0,24,0
+2019,Jul-Dec 2019,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,500,Animal,50,0,0,25,0
+2019,Jul-Dec 2019,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"Birds",-,-,3000,Animal,45,0,0,8,0
+2019,Jul-Dec 2019,Africa,Nigeria,"Borno","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,500,Animal,221,151,0,70,379
+2019,Jul-Dec 2019,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,250,Animal,80,0,0,2,-
+2019,Jul-Dec 2019,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,250,Animal,30,0,0,16,0
+2019,Jul-Dec 2019,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,982,Animal,60,0,0,14,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,66350,Animal,14380,0,29,329,25000
+2020,Jan-Jun 2020,Africa,Nigeria,"Borno","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,405,Animal,140,0,0,90,265
+2020,Jan-Jun 2020,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,444,Animal,300,40,10,100,64
+2020,Jan-Jun 2020,Africa,Nigeria,"Cross River","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Cross River","Fowl typhoid","",Domestic,-,"Birds",-,-,648,Animal,648,0,0,15,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,13889,Animal,1287,0,4,82,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,150,Animal,120,0,0,33,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,322,Animal,34,0,2,20,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1000,Animal,1,0,0,0,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Niger","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Niger","Fowl typhoid","",Domestic,-,"Birds",-,-,2,Animal,1,0,0,0,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,3,Animal,1,0,0,0,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,36,Animal,10,0,2,4,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,13,Animal,10,0,3,4,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,399,Animal,31,0,0,27,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3125,Animal,98,0,0,40,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,80,Animal,80,0,30,12,0
+2020,Jan-Jun 2020,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2020,Jan-Jun 2020,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,51,Animal,21,0,7,6,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,10,Animal,5,0,3,3,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Anambra","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Anambra","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1500,Animal,75,0,0,45,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,41650,Animal,9400,0,34,186,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Borno","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Borno","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,150,Animal,130,0,0,80,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,589,Animal,370,0,0,130,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,50,Animal,30,0,0,10,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1000,Animal,2,0,0,0,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,1279,Animal,45,0,0,6,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"Birds",-,-,1203,Animal,206,0,0,52,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1203,Animal,210,0,0,52,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,22512,Animal,667,0,18,165,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,400,Animal,110,0,0,52,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,185,Animal,30,0,3,13,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3970,Animal,154,0,0,78,2134
+2020,Jul-Dec 2020,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,4000,Animal,4000,0,5,40,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,61000,Animal,6005,0,4,51,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Niger","Fowl typhoid","",Domestic,-,"Birds",-,-,77,Animal,77,0,0,1,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,381,Animal,208,0,0,37,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,640,Animal,479,0,3,16,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1250,Animal,450,0,0,66,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,5205,Animal,134,0,0,62,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2217,Animal,128,0,0,57,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Rivers","Fowl typhoid","",Domestic,-,"Birds",-,-,1000,Animal,10,0,0,10,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,2700,Animal,2100,0,0,500,1700
+2020,Jul-Dec 2020,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8500,Animal,6097,0,180,1007,0
+2020,Jul-Dec 2020,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2020,Jul-Dec 2020,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,13000,Animal,2000,0,0,2000,0
+2021,Jan-Jun 2021,Africa,Nigeria,"","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,300,Animal,25,0,0,13,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,670,Animal,55,0,0,30,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,31,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,578067,Animal,8960,2296,23,2296,336720
+2021,Jan-Jun 2021,Africa,Nigeria,"Anambra","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Anambra","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1500,Animal,50,0,0,25,1450
+2021,Jan-Jun 2021,Africa,Nigeria,"Anambra","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Anambra","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,20,Animal,20,0,0,10,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"Birds",-,-,23000,Animal,2400,-,26,87,18600
+2021,Jan-Jun 2021,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,53000,Animal,1026,0,15,69,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,37,Animal,8,0,5,2,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,200,Animal,102,0,0,35,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3850,Animal,460,0,0,259,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,40,Animal,38,0,0,8,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,100,Animal,87,0,0,34,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,76,-,52,0,0,12,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,228,Animal,228,0,20,45,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5,Animal,3,0,0,2,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8040,Animal,7008,100,200,1203,6000
+2021,Jan-Jun 2021,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"Birds",-,-,10,Animal,4,0,0,1,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,42,Animal,12,0,0,10,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","",Domestic,-,"Birds",-,-,1457,Animal,59,0,0,12,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,4025,Animal,199,0,0,77,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,14651,Animal,875,0,54,128,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,28,Animal,12,0,0,4,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,11,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,10019,Animal,4039,0,81,500,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,500,Animal,300,0,0,250,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Kogi","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Kogi","Fowl typhoid","",Domestic,-,"Birds",-,-,96,Animal,40,0,0,2,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,200,Animal,200,0,0,65,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,770,Animal,770,0,0,61,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,3,Animal,1,0,0,0,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,12864,Animal,12179,0,10,132,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Niger","Fowl typhoid","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Niger","Fowl typhoid","",Domestic,-,"Birds",-,-,18,Animal,10,0,0,3,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,15,Animal,9,0,1,4,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,142,Animal,59,0,15,28,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,60,Animal,0,0,0,0,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,3762,Animal,322,0,0,250,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,16,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,19963,Animal,653,0,0,109,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,8,Animal,6,0,0,2,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,1550,Animal,52,0,0,10,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4800,Animal,2015,0,0,105,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Rivers","Avian infectious bronchitis","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Rivers","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,4250,Animal,308,0,0,51,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Rivers","Fowl typhoid","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Rivers","Fowl typhoid","",Domestic,-,"Birds",-,-,5500,Animal,3534,0,0,40,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,4600,Animal,4100,0,0,1800,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,11,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,13748,Animal,6439,0,0,297,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Sokoto","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Sokoto","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,400,Animal,70,0,0,50,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,13060,Animal,2028,0,0,7,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Zamfara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Zamfara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,40,Animal,40,0,0,6,0
+2021,Jan-Jun 2021,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jan-Jun 2021,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,539,Animal,12,0,0,4,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Abia","Fowl typhoid","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Abia","Fowl typhoid","",Domestic,-,"Birds",-,-,5741,Animal,2741,0,15,558,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,4144,Animal,1588,0,0,1498,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7625,Animal,1198,0,1,958,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,184,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,329398,Animal,55874,0,0,33316,1409016
+2021,Jul-Dec 2021,Africa,Nigeria,"Anambra","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Anambra","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,1000,Animal,40,0,0,4,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Anambra","Fowl typhoid","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Anambra","Fowl typhoid","",Domestic,-,"Birds",-,-,300,Animal,200,0,0,50,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Anambra","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Anambra","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,2600,Animal,80,0,0,27,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Anambra","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,520,Animal,170,0,0,55,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"Birds",-,-,8480,Animal,1061,0,17,74,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,29900,Animal,8500,0,22,808,8000
+2021,Jul-Dec 2021,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,100,Animal,100,0,73,23,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,10000,Animal,100,0,0,62,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,145,Animal,41,0,1,13,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Ebonyi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Ebonyi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1500,Animal,20,0,0,4,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Edo","Fowl typhoid","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Edo","Fowl typhoid","",Domestic,-,"Birds",-,-,3100,Animal,850,0,0,250,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,5250,Animal,1230,0,0,360,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,68626,Animal,12602,0,0,5704,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,500,Animal,272,0,0,0,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,150,Animal,150,0,0,0,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,389,Animal,337,0,0,0,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Enugu","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Enugu","Fowl typhoid","",Domestic,-,"Birds",-,-,20,Animal,20,0,2,2,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,15,Animal,5,0,0,2,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,254,Animal,254,0,11,17,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,49177,Animal,4542,0,5,364,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"Birds",-,-,6000,Animal,3230,0,0,83,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,14183,Animal,10883,0,91,142,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8586,Animal,6271,0,220,170,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,100,Animal,100,0,0,15,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"Birds",-,-,1974,Animal,26,0,0,5,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,6808,Animal,367,0,0,136,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,11,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,22226,Animal,995,0,41,195,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,36,Animal,2,0,0,2,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1034,Animal,355,0,10,64,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Katsina","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Katsina","Fowl typhoid","",Domestic,-,"Birds",-,-,2000,Animal,300,0,10,80,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,700,Animal,400,0,10,30,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,18,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1979,Animal,523,0,29,185,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kogi","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kogi","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,200,Animal,50,0,0,0,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kogi","Fowl typhoid","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kogi","Fowl typhoid","",Domestic,-,"Birds",-,-,291,Animal,141,0,0,13,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,293,Animal,82,0,0,39,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6232,Animal,6232,0,0,84,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,12500,Animal,9050,0,0,87,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,400,Animal,400,0,10,140,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,13,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,24870,Animal,24445,0,100,1184,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Nassarawa","Avian infectious bronchitis","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Nassarawa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,14665,Animal,2355,0,0,293,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Nassarawa","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Nassarawa","Fowl typhoid","",Domestic,-,"Birds",-,-,3460,Animal,220,0,0,38,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Nassarawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Nassarawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1880,Animal,1657,0,0,1522,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8606,Animal,5021,0,0,242,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,3176,Animal,2203,0,0,53,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,11,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2122,Animal,73,0,3,36,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Ogun","Fowl typhoid","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Ogun","Fowl typhoid","",Domestic,-,"Birds",-,-,1821,Animal,635,0,0,462,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1610,Animal,492,0,0,319,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,32100,Animal,322,0,0,51,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5100,Animal,15,0,0,8,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,7274,Animal,744,0,0,301,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,14,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,18226,Animal,834,0,0,313,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Oyo","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Oyo","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,3000,Animal,55,0,0,15,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,10000,Animal,1175,0,0,315,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6096,Animal,373,0,0,87,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Plateau","Avian infectious bronchitis","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Plateau","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,1022,Animal,9,0,0,8,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,30625,Animal,407,0,2,126,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1325,Animal,844,0,0,128,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,13,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,23300,Animal,233,0,10,96,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Rivers","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Rivers","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,2240,Animal,4,0,0,0,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Rivers","Fowl typhoid","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,11380,Animal,9832,0,0,289,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,13,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,22829,Animal,15402,0,0,912,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,500,Animal,150,0,0,57,0
+2021,Jul-Dec 2021,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2021,Jul-Dec 2021,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,334,Animal,46,0,4,23,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1100,Animal,30,0,0,23,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,79484,Animal,63558,0,2320,2375,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Akwa Ibom","Fowl typhoid","",Domestic,-,"Birds",-,-,25733,Animal,18100,0,0,670,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not typed",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not typed",Domestic,-,"Birds",-,-,71787,Animal,66075,0,0,1977,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,83,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,219092,Animal,126628,0,3737,24433,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Anambra","Fowl typhoid","",Domestic,-,"Birds",-,-,150,Animal,25,0,0,20,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Anambra","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Anambra","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1050,Animal,130,0,0,105,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,701,Animal,577,0,0,59,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"Birds",-,-,3800,Animal,1570,0,11,38,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,33800,Animal,8970,0,68,231,6000
+2022,Jan-Jun 2022,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,630,Animal,139,0,0,14,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not typed",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not typed",Domestic,-,"Birds",-,-,175,Animal,175,0,0,22,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1300,Animal,1100,0,0,243,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7730,Animal,2089,0,23,177,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,26,Animal,4,0,0,0,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Edo","Fowl typhoid","",Domestic,-,"Birds",-,-,900,Animal,50,0,0,50,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1350,Animal,327,0,0,181,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,14628,Animal,1580,0,0,689,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,251,Animal,251,0,0,0,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1200,Animal,1200,0,0,38,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2081,Animal,1759,0,0,28,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,10172,Animal,413,15,20,223,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,6200,Animal,6200,0,0,136,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,15550,Animal,15550,0,0,205,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,9794,Animal,950,0,0,198,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,49008,Animal,3038,0,345,1026,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,800,Animal,284,0,0,222,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,15,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,14797,Animal,2036,0,38,278,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Katsina","Fowl typhoid","",Domestic,-,"Birds",-,-,2300,Animal,670,0,0,200,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Katsina","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Katsina","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,300,Animal,250,0,0,17,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,64750,Animal,25000,0,650,9515,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,39,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,15563,Animal,1219,0,278,455,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Kogi","Fowl typhoid","",Domestic,-,"Birds",-,-,100,Animal,25,0,0,11,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,13,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7824,Animal,7824,0,5,345,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,1200,Animal,1200,0,0,20,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,500,Animal,500,0,0,200,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,14470,Animal,14470,0,0,222,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,17,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,30235,Animal,9061,0,0,872,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Niger","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,400,Animal,45,0,12,32,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,800,Animal,342,0,23,45,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,12229,Animal,2930,0,232,1171,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,14,Animal,1,0,0,0,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1360,Animal,1360,0,0,29,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,102179,Animal,42,0,0,34,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,6837,Animal,464,0,0,222,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,16,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,31740,Animal,1011,0,0,244,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Oyo","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,3000,Animal,35,0,0,15,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not typed",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not typed",Domestic,-,"Birds",-,-,5000,Animal,1000,0,0,300,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,13000,Animal,294,0,0,27,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Plateau","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,3000,Animal,150,0,30,100,500
+2022,Jan-Jun 2022,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,17530,Animal,1365,0,0,141,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1060,Animal,502,0,0,262,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7950,Animal,567,0,0,171,1850
+2022,Jan-Jun 2022,Africa,Nigeria,"Rivers","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,3050,Animal,3005,0,0,15,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Rivers","Fowl typhoid","",Domestic,-,"Birds",-,-,4800,Animal,4800,0,0,831,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1800,Animal,1800,0,0,300,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5350,Animal,3850,0,0,90,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1350,Animal,470,0,5,200,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Taraba","Fowl typhoid","",Domestic,-,"Birds",-,-,35,Animal,17,0,2,7,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Taraba","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Taraba","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,582,Animal,53,0,0,2,0
+2022,Jan-Jun 2022,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jan-Jun 2022,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1509,Animal,77,0,17,34,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,800,Animal,51,0,0,35,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,350,Animal,50,0,0,24,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Akwa Ibom","Fowl typhoid","",Domestic,-,"",-,29,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Akwa Ibom","Fowl typhoid","",Domestic,-,"Birds",-,-,36154,Animal,36154,0,704,1797,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,47,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,221657,Animal,221657,0,0,11552,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,50,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,264965,Animal,264965,0,0,11541,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1650,Animal,715,0,30,453,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7269,Animal,2383,0,43,84,466
+2022,Jul-Dec 2022,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,18600,Animal,14626,0,18,673,3100
+2022,Jul-Dec 2022,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,4070,Animal,1020,0,0,97,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,2550,Animal,1250,0,0,245,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,19,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8933,Animal,5045,0,0,946,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Delta","Fowl typhoid","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Delta","Fowl typhoid","",Domestic,-,"Birds",-,-,14650,Animal,14650,0,0,396,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,10534,Animal,10534,0,0,251,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Ebonyi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Ebonyi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,102,Animal,5,0,0,2,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Edo","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Edo","Fowl typhoid","",Domestic,-,"Birds",-,-,1370,Animal,1200,0,0,24,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,2500,Animal,2500,0,0,0,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,22579,Animal,22579,0,0,621,6500
+2022,Jul-Dec 2022,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,27,Animal,27,0,0,3,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1137,Animal,267,0,0,22,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3109,Animal,1759,0,27,62,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Gombe","Fowl typhoid","",Domestic,-,"Birds",-,-,4000,Animal,1233,0,0,126,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,167,Animal,120,0,24,71,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7107,Animal,5782,0,5,90,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"Birds",-,-,962,Animal,29,0,0,0,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,40861,Animal,1697,0,30,606,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,18,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,73450,Animal,3321,0,314,964,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,63,Animal,15,0,0,0,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,225,Animal,30,0,0,10,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,42,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,17448,Animal,2927,0,333,930,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Kogi","Fowl typhoid","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Kogi","Fowl typhoid","",Domestic,-,"Birds",-,-,500,Animal,110,0,8,20,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4645,Animal,4645,0,0,290,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,7070,Animal,7070,0,0,182,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,12800,Animal,12800,0,0,3030,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,24200,Animal,24200,0,3,462,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,16,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,28872,Animal,5063,0,0,789,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,3300,Animal,2200,0,0,1600,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4994,Animal,4729,0,179,1798,2450
+2022,Jul-Dec 2022,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,265545,Animal,5525,0,0,20,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,4127,Animal,286,0,0,194,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8543,Animal,427,0,0,144,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Oyo","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,3000,Animal,3000,0,0,45,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,4758,Animal,4758,0,0,196,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,16367,Animal,16367,0,0,787,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,2550,Animal,331,0,0,39,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,202,Animal,24,0,0,17,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8550,Animal,4050,0,1,38,6265
+2022,Jul-Dec 2022,Africa,Nigeria,"Rivers","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Rivers","Fowl typhoid","",Domestic,-,"Birds",-,-,234,Animal,200,0,0,3,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,163,Animal,98,0,0,33,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1738,Animal,1280,0,0,40,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3651,Animal,846,0,39,344,0
+2022,Jul-Dec 2022,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2022,Jul-Dec 2022,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1151,Animal,123,0,13,32,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Abia","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,400,Animal,14,0,0,10,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Abia","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1000,Animal,32,0,0,9,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,600,Animal,15,0,0,4,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Akwa Ibom","Fowl typhoid","",Domestic,-,"Birds",-,-,26726,Animal,26726,0,0,1180,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,129760,Animal,129760,0,0,5869,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,45,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,191559,Animal,191559,0,0,7745,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Bauchi","Fowl typhoid","",Domestic,-,"Birds",-,-,200,Animal,102,0,0,28,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,14,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4336,Animal,2067,0,115,376,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"Birds",-,-,2600,Animal,2600,0,0,22,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,30100,Animal,27600,0,15,116,20300
+2023,Jan-Jun 2023,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,360,Animal,360,0,0,5,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,40,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5163,Animal,4873,0,0,142,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Delta","Fowl typhoid","",Domestic,-,"Birds",-,-,4700,Animal,4700,0,0,10,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Delta","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,100,Animal,100,0,0,5,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Edo","Fowl typhoid","",Domestic,-,"Birds",-,-,1370,Animal,400,0,0,50,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1,Animal,1,0,0,0,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5350,Animal,1860,0,0,290,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,3600,Animal,3600,0,0,0,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5340,Animal,5340,0,0,57,4943
+2023,Jan-Jun 2023,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,15571,Animal,1840,0,7,188,1000
+2023,Jan-Jun 2023,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,47,Animal,5,0,0,3,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,2931,Animal,79,0,0,0,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"Birds",-,-,2585,Animal,96,0,0,18,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,5335,Animal,1030,0,0,120,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,46417,Animal,2196,0,140,382,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,100,Animal,20,0,0,5,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1618,Animal,350,0,2,170,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Katsina","Fowl typhoid","",Domestic,-,"Birds",-,-,600,Animal,472,0,95,40,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,23,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3422,Animal,654,0,72,157,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Kogi","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,100,Animal,100,0,0,1,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,11,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2918,Animal,2918,0,4,78,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,7120,Animal,2620,0,0,50,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,6490,Animal,6490,0,1,1185,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,18,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,31331,Animal,31331,0,0,905,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,27,Animal,7,0,0,3,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1542,Animal,298,0,83,47,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Ogun","Fowl typhoid","",Domestic,-,"Birds",-,-,500,Animal,475,0,0,25,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2500,Animal,2500,0,0,64,2436
+2023,Jan-Jun 2023,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,24004,Animal,17,0,0,10,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1080,Animal,119,0,0,77,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3312,Animal,136,0,0,63,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Plateau","Fowl typhoid","",Domestic,-,"Birds",-,-,1250,Animal,551,0,5,20,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1030,Animal,580,0,0,212,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Plateau","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5830,Animal,5150,0,0,112,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,2500,Animal,1300,0,0,570,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Rivers","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,394,Animal,242,0,0,28,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,400,Animal,101,0,0,62,400
+2023,Jan-Jun 2023,Africa,Nigeria,"Yobe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Yobe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,250,Animal,49,0,0,25,200
+2023,Jan-Jun 2023,Africa,Nigeria,"Zamfara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,89,Animal,6,0,0,5,0
+2023,Jan-Jun 2023,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2023,Jan-Jun 2023,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4995,Animal,303,0,21,29,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Abia","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6000,Animal,6000,0,368,706,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,75124,Animal,75124,0,0,3041,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,31,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,87980,Animal,87980,0,0,3321,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1579,Animal,693,0,6,86,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,24,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8198,Animal,2557,0,305,439,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"Birds",-,-,7500,Animal,7500,0,0,32,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,13300,Animal,13300,0,0,66,8000
+2023,Jul-Dec 2023,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,4500,Animal,4500,0,0,540,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,114,Animal,114,0,0,114,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,83,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5521,Animal,5521,0,0,204,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,546,Animal,536,0,26,44,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Cross River","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Cross River","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1200,Animal,1200,0,0,74,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Delta","Fowl typhoid","",Domestic,-,"Birds",-,-,3500,Animal,3500,0,0,0,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Ekiti","Fowl typhoid","",Domestic,-,"Birds",-,-,2542,Animal,2515,0,0,0,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6000,Animal,6000,0,0,29,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1479,Animal,1143,0,9,22,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,4200,Animal,460,0,0,65,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4500,Animal,282,0,0,60,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,4025,Animal,126,0,0,40,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,19093,Animal,995,0,0,215,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,14,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,35478,Animal,15532,0,149,266,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"Birds",-,-,200,Animal,100,0,0,24,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1365,Animal,518,0,0,121,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3595,Animal,200,0,7,33,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Katsina","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,627,Animal,627,0,15,123,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2007,Animal,2007,0,35,238,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1815,Animal,584,0,79,141,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Kogi","Fowl typhoid","",Domestic,-,"Birds",-,-,350,Animal,350,0,0,10,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,95,Animal,95,0,0,19,71
+2023,Jul-Dec 2023,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1266,Animal,836,0,17,60,400
+2023,Jul-Dec 2023,Africa,Nigeria,"Kwara","Fowl typhoid","",Domestic,-,"Birds",-,-,2080,Animal,2080,0,0,35,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,4000,Animal,4000,0,0,10,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,19436,Animal,17530,0,3,711,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Lagos","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Lagos","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1,Animal,1,0,0,1,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Nassarawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,3500,Animal,3500,0,40,200,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3000,Animal,3000,0,0,250,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,120,Animal,120,0,0,5,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1685,Animal,88,0,0,60,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,26517,Animal,12254,0,0,193,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Oyo","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,2000,Animal,15,0,0,6,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Rivers","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,30,Animal,30,0,0,4,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Rivers","Fowl typhoid","",Domestic,-,"Birds",-,-,35,Animal,35,0,0,1,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Rivers","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,50,Animal,50,0,0,3,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5772,Animal,889,0,60,177,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Zamfara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,163,Animal,163,0,0,6,0
+2023,Jul-Dec 2023,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2023,Jul-Dec 2023,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1620,Animal,1540,0,19,23,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,48,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,134436,Animal,134436,0,0,58673,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,42,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,131611,Animal,131611,0,0,53986,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,8924,Animal,1127,0,0,171,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,20,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,20789,Animal,3033,59,171,419,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,27300,Animal,27300,0,0,292,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,400,Animal,400,0,0,4,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,29,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4170,Animal,4170,0,0,88,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Borno","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Borno","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,12000,Animal,12000,0,0,8000,12000
+2024,Jan-Jun 2024,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,240,Animal,17,0,2,29,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,12,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,543,Animal,347,0,0,56,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3714,Animal,3631,0,9,88,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,2500,Animal,220,0,0,21,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1800,Animal,270,0,0,26,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,20482,Animal,1223,0,30,140,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"Birds",-,-,1053,Animal,43,0,0,7,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,56082,Animal,3978,0,14,1252,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,19,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,121275,Animal,6649,0,689,1252,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"Birds",-,-,322,Animal,26,0,0,0,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,12,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,2169,Animal,794,0,4,10,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,22,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3866,Animal,534,2,16,12,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,390,Animal,72,0,0,23,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Kebbi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Kebbi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,500,Animal,10,0,1,1,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,17,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4071,Animal,698,0,92,107,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,549,Animal,87,0,0,35,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,519,Animal,53,0,0,42,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Niger","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Niger","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,400,Animal,45,0,12,32,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,332,Animal,45,0,0,31,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6809,Animal,1889,0,103,1093,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,500,Animal,80,0,0,30,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,500,Animal,8,0,0,5,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,4048,Animal,129,0,0,81,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,15,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,11908,Animal,347,0,0,162,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Oyo","Fowl typhoid","",Domestic,-,"Birds",-,-,1500,Animal,10,0,0,10,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Plateau","Infectious bursal disease (Gumboro disease)","not typed",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,30000,Animal,5500,0,0,1828,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Zamfara","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Zamfara","Fowl typhoid","",Domestic,-,"Birds",-,-,68,Animal,31,0,11,5,0
+2024,Jan-Jun 2024,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2024,Jan-Jun 2024,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6440,Animal,867,0,229,273,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Akwa Ibom","Avian infectious bronchitis","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Akwa Ibom","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,6708,Animal,6708,0,0,1007,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,39,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,109247,Animal,109247,0,0,58743,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,35,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,99787,Animal,99787,0,0,53152,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,7462,Animal,782,0,145,162,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Bayelsa","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Bayelsa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,4500,Animal,4500,0,0,45,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Bayelsa","Fowl typhoid","",Domestic,-,"Birds",-,-,6300,Animal,6300,0,0,17,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,34250,Animal,26700,0,0,1226,15800
+2024,Jul-Dec 2024,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,800,Animal,800,0,0,47,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,24,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4060,Animal,4060,0,0,68,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,130,Animal,34,0,0,16,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Cross River","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Cross River","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,10000,Animal,3000,0,0,1050,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Ekiti","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2,Animal,2,0,0,0,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,280,Animal,190,0,0,0,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,12,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3037,Animal,412,0,0,40,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1182,Animal,146,0,0,27,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,16403,Animal,1136,0,62,183,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Jigawa","Fowl typhoid","",Domestic,-,"Birds",-,-,1928,Animal,82,0,0,0,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,12,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,37533,Animal,5566,0,0,2695,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,19,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,70346,Animal,4222,0,220,1095,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"Birds",-,-,110,Animal,15,0,0,5,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,808,Animal,298,0,0,0,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,20,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2700,Animal,576,0,4,8,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Kano","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Kano","Fowl typhoid","",Domestic,-,"Birds",-,-,29,Animal,9,0,0,1,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2235,Animal,185,0,7,208,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,199,Animal,24,0,0,12,163
+2024,Jul-Dec 2024,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1,Animal,1,0,0,0,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Ondo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Ondo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,30,Animal,3,0,0,0,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Ondo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,12000,Animal,3,0,0,3,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1374,Animal,133,0,0,87,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,44616,Animal,409,0,0,135,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1500,Animal,1500,0,0,30,0
+2024,Jul-Dec 2024,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,608,Animal,204,0,0,135,500
+2024,Jul-Dec 2024,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2024,Jul-Dec 2024,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,377,Animal,120,0,16,37,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Abia","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Abia","Fowl typhoid","",Domestic,-,"Birds",-,-,3400,Animal,3400,0,24,720,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,12770,Animal,12770,0,0,5971,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,30815,Animal,30815,0,0,13551,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,396,Animal,99,0,0,31,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,31,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,20420,Animal,20420,0,2000,1885,7000
+2025,Jan-Jun 2025,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,200,Animal,200,0,0,14,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,6,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1015,Animal,1015,0,0,17,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Borno","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,20,Animal,18,0,0,10,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Cross River","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Ekiti","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,200,Animal,114,0,0,1,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,55,Animal,55,0,0,10,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2194,Animal,162,0,0,30,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,636,Animal,368,0,1,7,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,2500,Animal,2500,0,0,46,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4000,Animal,4000,0,0,128,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"",-,26,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,48246,Animal,2884,0,0,85,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,17,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,61157,Animal,8931,0,30,2030,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,25,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,80307,Animal,8475,0,222,1569,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"Birds",-,-,42,Animal,19,0,4,2,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,205,Animal,25,0,0,10,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,14,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,614,Animal,186,0,12,0,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kano","Fowl typhoid","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kano","Fowl typhoid","",Domestic,-,"Birds",-,-,140,Animal,132,0,3,29,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,28,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,14536,Animal,4132,156,398,1943,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,200,Animal,17,0,3,10,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kogi","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kogi","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,400,Animal,24,0,0,8,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,452,Animal,37,0,0,15,400
+2025,Jan-Jun 2025,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,432,Animal,272,0,11,35,35
+2025,Jan-Jun 2025,Africa,Nigeria,"Kwara","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kwara","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,261,Animal,19,0,0,13,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kwara","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,300,Animal,22,0,0,12,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,570,Animal,570,0,0,30,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Lagos","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Lagos","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,600,Animal,1,0,0,0,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Nassarawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Nassarawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,500,Animal,60,0,17,32,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1500,Animal,104,0,0,23,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1000,Animal,600,0,0,30,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1630,Animal,1630,0,0,0,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,802,Animal,85,0,0,45,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,9694,Animal,164,0,1,85,0
+2025,Jan-Jun 2025,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jan-Jun 2025,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,90,Animal,56,0,31,25,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Akwa Ibom","Fowl typhoid","",Domestic,-,"",-,7,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Akwa Ibom","Fowl typhoid","",Domestic,-,"Birds",-,-,7,Animal,7,0,0,0,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,23,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Akwa Ibom","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,41062,Animal,40432,0,0,15375,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,23,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Akwa Ibom","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,44929,Animal,44372,0,0,17195,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Bauchi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1260,Animal,728,0,30,58,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,41,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Bauchi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,21856,Animal,2164,0,252,454,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Bayelsa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Bayelsa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,1300,Animal,1300,0,0,23,800
+2025,Jul-Dec 2025,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Bayelsa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,51300,Animal,50650,0,0,289,48340
+2025,Jul-Dec 2025,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Benue","Fowl typhoid","",Domestic,-,"Birds",-,-,200,Animal,200,0,0,0,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Benue","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,862,Animal,200,0,0,25,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,10,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Benue","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1928,Animal,1160,0,0,33,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Cross River","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Cross River","Fowl typhoid","",Domestic,-,"Birds",-,-,950,Animal,87,0,0,24,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Cross River","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Cross River","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,650,Animal,371,0,0,235,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Cross River","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Cross River","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1762,Animal,196,0,0,113,1720
+2025,Jul-Dec 2025,Africa,Nigeria,"Delta","Fowl typhoid","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Delta","Fowl typhoid","",Domestic,-,"Birds",-,-,427,Animal,427,0,20,25,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Ebonyi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Ebonyi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,160,Animal,6,0,0,1,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Edo","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Edo","Fowl typhoid","",Domestic,-,"Birds",-,-,900,Animal,50,0,0,50,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Edo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,2009,Animal,720,0,0,366,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Edo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8724,Animal,792,0,0,324,210
+2025,Jul-Dec 2025,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Enugu","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,320,Animal,200,0,0,16,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,14,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Enugu","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1208,Animal,492,0,16,108,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Federal Capital Territory","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1480,Animal,13,0,0,0,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Gombe","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,125,Animal,14,0,0,9,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Gombe","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1050,Animal,204,0,0,20,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Imo","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Imo","Fowl typhoid","",Domestic,-,"Birds",-,-,2,Animal,2,0,0,1,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Imo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Imo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,11700,Animal,11700,0,0,14,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Imo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,6850,Animal,5200,0,0,73,5200
+2025,Jul-Dec 2025,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"",-,11,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Jigawa","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,18333,Animal,929,0,0,0,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,13,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Jigawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,54466,Animal,6656,0,0,2142,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,26,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Jigawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,85995,Animal,11811,0,57,1566,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kaduna","Fowl typhoid","",Domestic,-,"Birds",-,-,455,Animal,115,0,0,0,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kaduna","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,203,Animal,203,0,0,0,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,25,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kaduna","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,9959,Animal,4476,0,0,0,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Kano","Fowl typhoid","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kano","Fowl typhoid","",Domestic,-,"Birds",-,-,218,Animal,78,0,17,35,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,15,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kano","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,4348,Animal,1566,0,213,335,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Katsina","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2790,Animal,201,0,17,65,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Kebbi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,27,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kebbi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,5511,Animal,2145,0,319,268,200
+2025,Jul-Dec 2025,Africa,Nigeria,"Kogi","Avian infectious bronchitis","",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kogi","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,314,Animal,180,0,0,7,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kogi","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,768,Animal,96,0,0,44,212
+2025,Jul-Dec 2025,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,11,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kogi","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1938,Animal,459,0,30,110,1215
+2025,Jul-Dec 2025,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,8,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Kwara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1680,Animal,1680,0,15,60,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Lagos","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Lagos","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,8179,Animal,360,0,0,25,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Nassarawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,3,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Nassarawa","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,856,Animal,543,0,0,151,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Nassarawa","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,1800,Animal,910,0,53,181,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Niger","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,350,Animal,320,0,0,62,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Niger","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,2650,Animal,580,0,43,92,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Ogun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,19,Animal,7,0,0,5,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Ogun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,96,Animal,1,0,0,0,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Osun","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,849,Animal,70,0,0,47,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,9,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Osun","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,3544,Animal,156,0,0,79,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Oyo","Avian infectious bronchitis","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Oyo","Avian infectious bronchitis","",Domestic,-,"Birds",-,-,7500,Animal,7500,0,0,20,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Oyo","Infectious bursal disease (Gumboro disease)","not sampled",Domestic,-,"Birds",-,-,7500,Animal,7500,0,0,30,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Oyo","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,17000,Animal,17000,0,0,55,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,4,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Sokoto","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,150,Animal,112,0,5,23,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Taraba","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,2,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Taraba","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,365,Animal,42,0,6,14,98
+2025,Jul-Dec 2025,Africa,Nigeria,"Zamfara","Fowl typhoid","",Domestic,-,"",-,1,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Zamfara","Fowl typhoid","",Domestic,-,"Birds",-,-,500,Animal,100,0,0,25,0
+2025,Jul-Dec 2025,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"",-,5,-,-,-,-,-,-,-
+2025,Jul-Dec 2025,Africa,Nigeria,"Zamfara","Newcastle disease virus (Inf. with)","",Domestic,-,"Birds",-,-,700,Animal,117,0,13,13,0
