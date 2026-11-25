@@ -246,7 +246,7 @@ The project test suite contains **57 tests**, all of which passed during the com
 
 ### Baseline comparison caveat
 
-The historical previous-three-available-period mean baseline reported MAE 4.883 on 340 available observations in Notebook 07. The Random Forest pooled MAE is 6.415 on 302 rolling-origin predictions. The sample sizes and evaluation procedures are not identical; therefore, the current figures do **not** establish that Random Forest outperforms the historical baseline. A matched, row-level comparison using identical folds and identical observations is required before making that claim.
+The matched same-fold comparison now provides a fairer baseline check. On the 272 identical validation rows where the previous-three-available-period mean was available, its MAE was **4.832**, while the Random Forest MAE on those same rows was **6.581**. The historical mean therefore performed better on MAE for that matched subset. The Random Forest beat the previous-three-period maximum baseline on the same 272 rows (MAE 6.581 vs 7.044), but it did not beat the mean baseline. On 243 rows where the previous available-period count was available, the baseline MAE was 5.000 versus Random Forest 6.614. Do not claim that Random Forest is the best overall forecasting method. These comparisons use the same eight rolling-origin folds as model development, not an independent final holdout.
 
 ### Independent validation caveat
 
