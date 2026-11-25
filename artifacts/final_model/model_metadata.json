@@ -35,8 +35,10 @@
     "semester_mean_wind_component_magnitude_ms"
   ],
   "training_period": {
-    "start_period": 4041,
-    "end_period": 4052
+    "start_period": 4040,
+    "end_period": 4051,
+    "start_label": "2020 Jan-Jun",
+    "end_label": "2025 Jul-Dec"
   },
   "validation": {
     "method": "rolling_origin_temporal_validation",
@@ -79,5 +81,28 @@
     "random_state": 42,
     "n_jobs": -1
   },
-  "created_at_utc": "2026-11-08T21:27:47.012603+00:00"
+  "created_at_utc": "2026-11-08T21:27:47.012603+00:00",
+  "prediction_scenario": "retrospective_end_of_semester_estimation",
+  "evaluation_scope": {
+    "method": "rolling_origin_temporal_validation",
+    "folds": 8,
+    "out_of_sample_predictions": 302,
+    "validation_periods": [
+      4044,
+      4045,
+      4046,
+      4047,
+      4048,
+      4049,
+      4050,
+      4051
+    ],
+    "independent_final_holdout": false,
+    "note": "These folds were used during model development and selection. They are not an untouched independent final test set."
+  },
+  "operational_readiness": {
+    "pre_semester_forecast": false,
+    "same_semester_climate_inputs": true,
+    "note": "Same-semester climate measurements support retrospective/end-of-semester estimation, not a pre-semester forecast."
+  }
 }
