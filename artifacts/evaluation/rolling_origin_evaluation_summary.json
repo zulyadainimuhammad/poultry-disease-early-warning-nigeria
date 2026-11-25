@@ -19,5 +19,19 @@
   "mean_fold_median_absolute_error": 3.337083333333333,
   "pooled_mae": 6.415011037527593,
   "pooled_rmse": 13.20678935203263,
-  "pooled_median_absolute_error": 3.2183333333333333
+  "pooled_median_absolute_error": 3.2183333333333333,
+  "validation_period_labels": [
+    "2022 Jan-Jun",
+    "2022 Jul-Dec",
+    "2023 Jan-Jun",
+    "2023 Jul-Dec",
+    "2024 Jan-Jun",
+    "2024 Jul-Dec",
+    "2025 Jan-Jun",
+    "2025 Jul-Dec"
+  ],
+  "prediction_scenario": "retrospective_end_of_semester_estimation",
+  "independent_final_holdout": false,
+  "model_selection_used_validation_folds": true,
+  "temporal_period_definition": "year * 2 + (semester_order - 1)"
 }
