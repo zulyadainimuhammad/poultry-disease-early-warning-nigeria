@@ -44,8 +44,10 @@
   },
   "training": {
     "records": 445,
-    "start_temporal_period": 4041,
-    "end_temporal_period": 4052
+    "start_temporal_period": 4040,
+    "end_temporal_period": 4051,
+    "start_label": "2020 Jan-Jun",
+    "end_label": "2025 Jul-Dec"
   },
   "validation": {
     "method": "rolling_origin_temporal_validation",
@@ -86,5 +88,16 @@
     "column_order_required": true,
     "missing_columns_allowed": false,
     "extra_columns_allowed": true
+  },
+  "prediction_scenario": "retrospective_end_of_semester_estimation",
+  "validation_scope": {
+    "method": "rolling_origin_temporal_validation",
+    "folds": 8,
+    "out_of_sample_predictions": 302,
+    "independent_final_holdout": false
+  },
+  "operational_readiness": {
+    "pre_semester_forecast": false,
+    "same_semester_climate_inputs": true
   }
 }
