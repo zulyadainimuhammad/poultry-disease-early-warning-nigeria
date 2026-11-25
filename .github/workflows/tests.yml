@@ -26,3 +26,14 @@ jobs:
 
       - name: Run tests
         run: pytest -q
+
+      - name: Compare Random Forest with historical baselines on matched folds
+        run: python scripts/compare_matched_baselines.py
+
+      - name: Upload matched baseline evaluation
+        uses: actions/upload-artifact@v4
+        with:
+          name: matched-baseline-evaluation
+          path: |
+            artifacts/evaluation/matched_baseline_comparison.json
+            artifacts/evaluation/matched_baseline_oos_predictions.csv

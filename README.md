@@ -3,11 +3,11 @@
 **Research and decision-support project for modelling reported poultry disease outbreak activity using surveillance history and climate-related features.**
 
 **Repository owner:** Zulyadaini Muhammad Aminu  
-**Status:** Completed reproducible modelling and evaluation workflow with a validated temporal machine-learning model and production-ready model artefacts.
+**Status:** Completed research modelling workflow with a saved Random Forest regression pipeline, rolling-origin temporal evaluation and production-format inference artefacts. The current experiment is retrospective/end-of-semester estimation; it is not yet a prospective pre-semester or live outbreak-alert service.
 
 ## 1. Project Overview
 
-This project develops a data-driven early-warning component for poultry disease surveillance in Nigeria. It combines historical reported outbreak information with temporal, disease-history and climate-related features to estimate future reported outbreak counts.
+This project develops a data-driven early-warning component for poultry disease surveillance in Nigeria. It combines historical reported outbreak information with temporal, disease-history and climate-related features to estimate reported outbreak counts under the retrospective/end-of-semester experiment.
 
 The system is designed as a **decision-support and early-warning component**, not as a disease diagnostic system and not as a replacement for veterinary surveillance or field investigation.
 
@@ -32,7 +32,7 @@ The central question is:
 
 > Can historical poultry disease surveillance information, combined with temporal, disease-history and climate-related features, support useful early-warning estimates of reported outbreak activity in Nigeria?
 
-The project focuses on **reported surveillance activity**. Reported outbreak counts are not equivalent to true disease prevalence or total disease incidence because surveillance coverage, reporting behaviour, diagnostic capacity and data availability can influence observed records.
+The project focuses on **reported surveillance activity**. Reported outbreak counts are not equivalent to true disease prevalence or total disease incidence because surveillance coverage, reporting behaviour, diagnostic capacity and data availability can influence observed records. In the current experiment, climate measurements describe the same semester as the target outbreak count. The modelling scenario is therefore retrospective/end-of-semester estimation, not a forecast issued before that semester begins.
 
 ## 3. Data and Evidence
 
@@ -42,6 +42,9 @@ The source audit identified:
 
 - 1,180 raw source records
 - 19 source columns
+- 39 administrative divisions in the original export
+- 445 records with numeric observed outbreak counts eligible for the modelling workflow
+- 735 records with unavailable outbreak-count values; these were not relabelled as zero
 - reporting years covering 2005–2025
 - semester reporting periods
 - administrative geographic information
@@ -54,8 +57,9 @@ Important interpretation rules:
 1. A WAHIS dash (-) is treated as missing rather than zero.
 2. A missing report is not evidence that disease was absent.
 3. An unobserved geography-period-disease combination is not automatically treated as a negative example.
-4. Future information is not used to construct predictors for historical validation periods.
-5. Model outputs represent predicted reported outbreak counts, not confirmed disease diagnoses.
+4. Historical outbreak features are created by shifting the previous available row within each administrative-division/disease series. Where a series has reporting gaps, this is the previous available reporting period, not necessarily the immediately preceding calendar semester.
+5. The 445 observed target values are all positive. The current regression experiment estimates counts conditional on a numeric outbreak count being reported; it does not learn a reliable outbreak/no-outbreak classifier.
+6. Model outputs represent predicted reported outbreak counts, not confirmed disease diagnoses.
 
 Raw surveillance data are not redistributed through this repository where data-use restrictions apply.
 
@@ -85,7 +89,7 @@ Three regression models were evaluated:
 
 Random train/test splitting was deliberately avoided. The final evaluation uses **rolling-origin temporal validation with 8 chronological folds** so that each validation period is predicted using information available before that period.
 
-The formal evaluation produced **302 out-of-sample predictions**.
+The rolling-origin development evaluation produced **302 out-of-sample predictions** across eight chronological folds (2022 Jan-Jun to 2025 Jul-Dec). These folds were also used during model selection, so they are **not an untouched independent final test set**.
 
 The final model was trained on **445 eligible historical observations** and uses **27 predictor features**.
 
@@ -116,9 +120,9 @@ Authoritative out-of-sample results:
 | Pooled RMSE | 13.207 |
 | Pooled median absolute error | 3.218 |
 
-The model demonstrates **moderate predictive performance** under chronological out-of-sample evaluation. Performance varies across time, and the evaluated predictions show an overall tendency toward overprediction.
+The model demonstrates **moderate predictive performance** under rolling-origin temporal evaluation used during development and model selection. These are internal temporal validation estimates, not an independent final holdout. Performance varies across time, and the evaluated predictions show an overall tendency toward overprediction.
 
-These results support the model as a **decision-support/early-warning component**, not as a standalone operational disease-alert or diagnostic system.
+These results support the model as a **research decision-support component for estimating reported outbreak counts at the end of a semester**. They do not establish pre-semester warning capability, live operational readiness, or veterinary diagnostic performance.
 
 ## 8. Error Analysis
 
@@ -238,9 +242,19 @@ The project includes checks covering:
 
 The project test suite contains **57 tests**, all of which passed during the completed validation workflow.
 
-## 15. Future Work
+## 15. Evaluation caveats and future work
 
-Recommended next steps include:
+### Baseline comparison caveat
+
+The matched same-fold comparison now provides a fairer baseline check. On the 272 identical validation rows where the previous-three-available-period mean was available, its MAE was **4.832**, while the Random Forest MAE on those same rows was **6.581**. The historical mean therefore performed better on MAE for that matched subset. The Random Forest beat the previous-three-period maximum baseline on the same 272 rows (MAE 6.581 vs 7.044), but it did not beat the mean baseline. On 243 rows where the previous available-period count was available, the baseline MAE was 5.000 versus Random Forest 6.614. Do not claim that Random Forest is the best overall forecasting method. These comparisons use the same eight rolling-origin folds as model development, not an independent final holdout.
+
+### Independent validation caveat
+
+All available labelled periods through 2025 were used in the model-development/selection workflow. A final untouched holdout cannot be claimed from those same periods after model selection. The next independent test should use newly reported later-period surveillance data, with model and evaluation protocol frozen before the test period is examined.
+
+### Recommended next steps
+
+
 
 - prospective validation using newly reported surveillance data
 - improved geographic modelling
@@ -254,7 +268,7 @@ Recommended next steps include:
 
 ## 16. Conclusion
 
-This project demonstrates a reproducible machine-learning workflow for estimating reported poultry disease outbreak activity in Nigeria.
+This project demonstrates a reproducible machine-learning workflow for retrospective/end-of-semester estimation of reported poultry disease outbreak activity in Nigeria.
 
 The final Random Forest achieved a mean fold MAE of **6.515** and mean fold RMSE of **11.594** under eight rolling-origin temporal validation folds, with **302 out-of-sample predictions**.
 

@@ -19,5 +19,48 @@
   "mean_fold_median_absolute_error": 3.337083333333333,
   "pooled_mae": 6.415011037527593,
   "pooled_rmse": 13.20678935203263,
-  "pooled_median_absolute_error": 3.2183333333333333
+  "pooled_median_absolute_error": 3.2183333333333333,
+  "validation_period_labels": [
+    "2022 Jan-Jun",
+    "2022 Jul-Dec",
+    "2023 Jan-Jun",
+    "2023 Jul-Dec",
+    "2024 Jan-Jun",
+    "2024 Jul-Dec",
+    "2025 Jan-Jun",
+    "2025 Jul-Dec"
+  ],
+  "prediction_scenario": "retrospective_end_of_semester_estimation",
+  "independent_final_holdout": false,
+  "model_selection_used_validation_folds": true,
+  "temporal_period_definition": "year * 2 + (semester_order - 1)",
+  "matched_baseline_comparison": {
+    "workflow_run": 53,
+    "method": "same eight rolling-origin folds; models compared on the identical rows where each baseline is available",
+    "independent_final_holdout": false,
+    "comparisons": {
+      "previous_available_period": {
+        "matched_rows": 243,
+        "random_forest_mae": 6.613539094650205,
+        "baseline_mae": 5,
+        "mae_difference_rf_minus_baseline": 1.6135390946502053,
+        "lower_mae": "historical_baseline"
+      },
+      "previous_three_available_period_mean": {
+        "matched_rows": 272,
+        "random_forest_mae": 6.5813235294117645,
+        "baseline_mae": 4.832107843137256,
+        "mae_difference_rf_minus_baseline": 1.7492156862745087,
+        "lower_mae": "historical_baseline"
+      },
+      "previous_three_available_period_max": {
+        "matched_rows": 272,
+        "random_forest_mae": 6.5813235294117645,
+        "baseline_mae": 7.044117647058823,
+        "mae_difference_rf_minus_baseline": -0.4627941176470589,
+        "lower_mae": "random_forest"
+      }
+    },
+    "interpretation": "The three-period history-mean baseline outperformed Random Forest by MAE on the same 272 validation rows. Random Forest outperformed the three-period maximum baseline. Do not claim Random Forest is best overall."
+  }
 }
