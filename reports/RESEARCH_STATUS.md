@@ -30,3 +30,7 @@ The folds were used during model development/selection, so an untouched independ
 - Prospective feature timing for a true pre-semester warning horizon.
 - Uncertainty estimation, monitoring and domain expert review.
 - Deployment as a separately tested API/dashboard.
+
+## Matched baseline check (CI run #53)
+
+The same eight rolling-origin folds were rerun with a matched row-level comparison. On 272 identical rows, the mean of the previous three available reporting-period counts achieved MAE 4.832 versus Random Forest MAE 6.581. On 243 rows, the previous available-period count baseline achieved MAE 5.000 versus Random Forest MAE 6.614. Random Forest beat the three-period maximum baseline on 272 rows (MAE 6.581 vs 7.044). The simple mean baseline is currently the strongest of these methods by MAE on its matched set. This is a model-selection finding, not an independent final test.
