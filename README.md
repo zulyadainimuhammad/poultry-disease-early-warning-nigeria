@@ -3,7 +3,7 @@
 **Research and decision-support project for modelling reported poultry disease outbreak activity using surveillance history and climate-related features.**
 
 **Repository owner:** Zulyadaini Muhammad Aminu  
-**Status:** Completed reproducible modelling and evaluation workflow with a validated temporal machine-learning model and production-ready model artefacts.
+**Status:** Completed research modelling workflow with a saved Random Forest regression pipeline, rolling-origin temporal evaluation and production-format inference artefacts. The current experiment is retrospective/end-of-semester estimation; it is not yet a prospective pre-semester or live outbreak-alert service.
 
 ## 1. Project Overview
 
@@ -32,7 +32,7 @@ The central question is:
 
 > Can historical poultry disease surveillance information, combined with temporal, disease-history and climate-related features, support useful early-warning estimates of reported outbreak activity in Nigeria?
 
-The project focuses on **reported surveillance activity**. Reported outbreak counts are not equivalent to true disease prevalence or total disease incidence because surveillance coverage, reporting behaviour, diagnostic capacity and data availability can influence observed records.
+The project focuses on **reported surveillance activity**. Reported outbreak counts are not equivalent to true disease prevalence or total disease incidence because surveillance coverage, reporting behaviour, diagnostic capacity and data availability can influence observed records. In the current experiment, climate measurements describe the same semester as the target outbreak count. The modelling scenario is therefore retrospective/end-of-semester estimation, not a forecast issued before that semester begins.
 
 ## 3. Data and Evidence
 
@@ -85,7 +85,7 @@ Three regression models were evaluated:
 
 Random train/test splitting was deliberately avoided. The final evaluation uses **rolling-origin temporal validation with 8 chronological folds** so that each validation period is predicted using information available before that period.
 
-The formal evaluation produced **302 out-of-sample predictions**.
+The rolling-origin development evaluation produced **302 out-of-sample predictions** across eight chronological folds (2022 Jan-Jun to 2025 Jul-Dec). These folds were also used during model selection, so they are **not an untouched independent final test set**.
 
 The final model was trained on **445 eligible historical observations** and uses **27 predictor features**.
 
@@ -116,9 +116,9 @@ Authoritative out-of-sample results:
 | Pooled RMSE | 13.207 |
 | Pooled median absolute error | 3.218 |
 
-The model demonstrates **moderate predictive performance** under chronological out-of-sample evaluation. Performance varies across time, and the evaluated predictions show an overall tendency toward overprediction.
+The model demonstrates **moderate predictive performance** under rolling-origin temporal evaluation used during development and model selection. These are internal temporal validation estimates, not an independent final holdout. Performance varies across time, and the evaluated predictions show an overall tendency toward overprediction.
 
-These results support the model as a **decision-support/early-warning component**, not as a standalone operational disease-alert or diagnostic system.
+These results support the model as a **research decision-support component for estimating reported outbreak counts at the end of a semester**. They do not establish pre-semester warning capability, live operational readiness, or veterinary diagnostic performance.
 
 ## 8. Error Analysis
 
@@ -240,6 +240,16 @@ The project test suite contains **57 tests**, all of which passed during the com
 
 ## 15. Future Work
 
+### Baseline comparison caveat
+
+The historical previous-three-semester-mean baseline reported MAE 4.883 on 340 available observations in Notebook 07. The Random Forest pooled MAE is 6.415 on 302 rolling-origin predictions. The sample sizes and evaluation procedures are not identical; therefore, the current figures do **not** establish that Random Forest outperforms the historical baseline. A matched, row-level comparison using identical folds and identical observations is required before making that claim.
+
+### Independent validation caveat
+
+All available labelled periods through 2025 were used in the model-development/selection workflow. A final untouched holdout cannot be claimed from those same periods after model selection. The next independent test should use newly reported later-period surveillance data, with model and evaluation protocol frozen before the test period is examined.
+
+## 15. Future Work
+
 Recommended next steps include:
 
 - prospective validation using newly reported surveillance data
@@ -254,7 +264,7 @@ Recommended next steps include:
 
 ## 16. Conclusion
 
-This project demonstrates a reproducible machine-learning workflow for estimating reported poultry disease outbreak activity in Nigeria.
+This project demonstrates a reproducible machine-learning workflow for retrospective/end-of-semester estimation of reported poultry disease outbreak activity in Nigeria.
 
 The final Random Forest achieved a mean fold MAE of **6.515** and mean fold RMSE of **11.594** under eight rolling-origin temporal validation folds, with **302 out-of-sample predictions**.
 
