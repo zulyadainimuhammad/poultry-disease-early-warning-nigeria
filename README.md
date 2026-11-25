@@ -7,7 +7,7 @@
 
 ## 1. Project Overview
 
-This project develops a data-driven early-warning component for poultry disease surveillance in Nigeria. It combines historical reported outbreak information with temporal, disease-history and climate-related features to estimate future reported outbreak counts.
+This project develops a data-driven early-warning component for poultry disease surveillance in Nigeria. It combines historical reported outbreak information with temporal, disease-history and climate-related features to estimate reported outbreak counts under the retrospective/end-of-semester experiment.
 
 The system is designed as a **decision-support and early-warning component**, not as a disease diagnostic system and not as a replacement for veterinary surveillance or field investigation.
 
@@ -42,6 +42,9 @@ The source audit identified:
 
 - 1,180 raw source records
 - 19 source columns
+- 39 administrative divisions in the original export
+- 445 records with numeric observed outbreak counts eligible for the modelling workflow
+- 735 records with unavailable outbreak-count values; these were not relabelled as zero
 - reporting years covering 2005–2025
 - semester reporting periods
 - administrative geographic information
@@ -54,8 +57,9 @@ Important interpretation rules:
 1. A WAHIS dash (-) is treated as missing rather than zero.
 2. A missing report is not evidence that disease was absent.
 3. An unobserved geography-period-disease combination is not automatically treated as a negative example.
-4. Future information is not used to construct predictors for historical validation periods.
-5. Model outputs represent predicted reported outbreak counts, not confirmed disease diagnoses.
+4. Historical outbreak features are created by shifting the previous available row within each administrative-division/disease series. Where a series has reporting gaps, this is the previous available reporting period, not necessarily the immediately preceding calendar semester.
+5. The 445 observed target values are all positive. The current regression experiment estimates counts conditional on a numeric outbreak count being reported; it does not learn a reliable outbreak/no-outbreak classifier.
+6. Model outputs represent predicted reported outbreak counts, not confirmed disease diagnoses.
 
 Raw surveillance data are not redistributed through this repository where data-use restrictions apply.
 
@@ -238,19 +242,19 @@ The project includes checks covering:
 
 The project test suite contains **57 tests**, all of which passed during the completed validation workflow.
 
-## 15. Future Work
+## 15. Evaluation caveats and future work
 
 ### Baseline comparison caveat
 
-The historical previous-three-semester-mean baseline reported MAE 4.883 on 340 available observations in Notebook 07. The Random Forest pooled MAE is 6.415 on 302 rolling-origin predictions. The sample sizes and evaluation procedures are not identical; therefore, the current figures do **not** establish that Random Forest outperforms the historical baseline. A matched, row-level comparison using identical folds and identical observations is required before making that claim.
+The historical previous-three-available-period mean baseline reported MAE 4.883 on 340 available observations in Notebook 07. The Random Forest pooled MAE is 6.415 on 302 rolling-origin predictions. The sample sizes and evaluation procedures are not identical; therefore, the current figures do **not** establish that Random Forest outperforms the historical baseline. A matched, row-level comparison using identical folds and identical observations is required before making that claim.
 
 ### Independent validation caveat
 
 All available labelled periods through 2025 were used in the model-development/selection workflow. A final untouched holdout cannot be claimed from those same periods after model selection. The next independent test should use newly reported later-period surveillance data, with model and evaluation protocol frozen before the test period is examined.
 
-## 15. Future Work
+### Recommended next steps
 
-Recommended next steps include:
+
 
 - prospective validation using newly reported surveillance data
 - improved geographic modelling
