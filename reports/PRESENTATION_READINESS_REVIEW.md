@@ -62,7 +62,7 @@ The eight rolling-origin folds were used during model selection and the saved ev
 
 **Disposition: no unsupported superiority claim.**
 
-Notebook 07 reports MAE 4.883 for the previous-three-available-period mean on 340 observations. The Random Forest pooled MAE is 6.415 on 302 rolling-origin predictions. Because the coverage and sample sets differ, the numbers are not a matched comparison. A matched fold-level comparison must be run on exactly the same records where the baseline is available. Until then, do not state that Random Forest outperforms the baseline.
+A matched same-fold comparison was added and executed by GitHub Actions run #53. On 272 identical validation rows where the previous-three-available-period mean was available, the historical mean baseline MAE was **4.832**, while Random Forest MAE on the same 272 rows was **6.581**. The baseline performed better on MAE by 1.749 outbreak-count units. On 243 identical rows where previous-available-period count was available, the baseline MAE was **5.000** versus Random Forest **6.614**. Random Forest did beat the previous-three-period maximum baseline on 272 matched rows (MAE **6.581** vs **7.044**). Therefore, do not claim Random Forest is best overall; the simple mean baseline is stronger on MAE in the matched sample. All these folds were used in model development/selection; this is not independent final testing.
 
 ### 4. Documentation and metric consistency
 
@@ -85,3 +85,14 @@ Notebook 09 previously contained an earlier evaluation block whose temporal peri
 4. For prospective warning, redesign the input timing so every predictor is available before the forecast target period.
 5. Add prediction intervals/uncertainty and domain review before field use.
 6. Only then package a dashboard or API with monitoring and veterinary/government stakeholder oversight.
+
+
+## Matched baseline comparison results (CI run #53)
+
+| Same-fold comparison | Matched rows | Random Forest MAE | Historical baseline MAE | Better MAE |
+|---|---:|---:|---:|---|
+| Previous available-period count | 243 | 6.614 | 5.000 | Historical baseline |
+| Mean of previous three available periods | 272 | 6.581 | 4.832 | Historical baseline |
+| Maximum of previous three available periods | 272 | 6.581 | 7.044 | Random Forest |
+
+The comparison script and workflow are now part of the presentation-readiness PR. GitHub Actions run #53 completed successfully, including unit tests, matched comparisons, and artifact upload.
