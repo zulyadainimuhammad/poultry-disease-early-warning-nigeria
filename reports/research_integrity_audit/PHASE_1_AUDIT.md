@@ -180,3 +180,25 @@ WOAH's public description states that the WAHIS interface contains validated dat
 WOAH's published reporting procedure explicitly separates Part 1 qualitative occurrence codes from Part 2 quantitative data for diseases reported present. The export should retain exact occurrence codes and status labels, including present, limited to zones, infection/infestation where applicable, absent, suspected, no information and never reported. The Part 1 status must not be collapsed into a binary label before reviewing species, animal category, production type, report period and geographic level.
 
 **Next acquisition action:** download and preserve the original Excel export using the steps in `reports/research_integrity_audit/WAHIS_PART1_EXPORT_GUIDE.md`. Inspect its schema and report grain before matching it to the current quantitative extract. Do not assume Part 1 occurrence status is reported at the same geographic grain as Part 2 quantitative data.
+
+## 3.3 Audit of the uploaded WAHIS Nigeria report-register export
+
+The project owner provided `SMR_2026-11-27_05-54.csv`, exported from the public Nigeria Six-monthly Reports register. This is a report catalogue, not the disease-level Part 1 occurrence-status dataset. It contains 59 report-register rows and nine source columns. All 59 rows are for Nigeria and marked Validated. The Animal type split is 42 Terrestrial and 17 Aquatic.
+
+The 42 terrestrial entries provide two report records (First and Second semester) for every year from 2005 through 2025 inclusive. The 17 aquatic entries are additional reports. This confirms that the exported register contains historical report metadata back to 2005, correcting the earlier inference from the initially visible public list page that appeared to show only 2022–2025.
+
+The final source column was exported with the header `undefined`. For the 2025 First-semester terrestrial row, its value `126754` matches the `reportInfoId` query parameter on the working public report review URL. It should therefore be renamed `report_info_id` in the cleaned report index, while the source value is preserved unchanged. The report register contains 50 distinct visible Report ID values across 59 rows; some Report IDs are shared across terrestrial and aquatic records, so the Report ID alone is not a unique row key. The `report_info_id` field is unique across the 59 register rows.
+
+### Report-detail retrieval test
+
+The 2025 First-semester terrestrial report (Report ID `SMR_175738`, reportInfoId `126754`) opened through the public route:
+
+`https://wahis.woah.org/#/smr-review/175738?reportInfoId=126754&fromPage=smr-management-url`
+
+The review page exposes Disease situation, Quantitative data, Surveillance and control measures, and Animal population sections. A public **Download PDF** control was visible. The report-detail content, rather than the report-register CSV, contains disease-level information and state/species/animal-category quantitative detail.
+
+A route test using the 2005 First-semester terrestrial entry (`Report ID 13426`, reportInfoId `17478`) opened the review shell but rendered blank/empty report sections and no visible PDF download control in the browser inspection. This is a retrieval/rendering limitation observed in that test, not evidence that the historical report record or data do not exist.
+
+### Required next action
+
+Download the 2025 First-semester terrestrial report PDF as a sample and inspect its full schema/content before deciding how to collect all 42 terrestrial report details. Then test a 2005 report and additional years to determine whether older report PDFs can be accessed by another public route or whether WOAH assistance is required. Do not join report-register metadata to the quantitative disease records as though it were occurrence-status data. The status data must be extracted from each underlying report (or an authoritative bulk source) and then matched using report period, disease, animal type/category/species and compatible geography.
