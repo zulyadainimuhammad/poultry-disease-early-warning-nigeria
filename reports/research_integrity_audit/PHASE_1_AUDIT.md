@@ -23,7 +23,7 @@ The user-facing product should be developed as a Nigeria-focused animal-health i
 | Groups with more than one source row | 439 (59.4%) | Multi-row source structure is material and must remain documented |
 | Group-size distribution | 300 single-row; 437 two-row; 2 three-row | Most groups require companion-row consolidation |
 | Groups with an unambiguous numeric new-outbreak value | 445 (60.2%) | Numeric target availability at grouped level |
-| Groups with no numeric new-outbreak value | 294 (39.8%) | Unavailable reporting, not confirmed absence |
+| Groups with no numeric new-outbreak value | 294 (39.8%) | Quantitative value unavailable in Part 2; may not be interpreted as confirmed absence without the corresponding Part 1 occurrence status |
 | Exact duplicate source rows | 0 | No exact row duplicates found in this extract |
 | Usable Event_id / Outbreak_id values | None | Both fields contain the '-' placeholder throughout this extract; they cannot identify or deduplicate events |
 
@@ -35,7 +35,7 @@ The model evaluation dataset contains 445 target records: 444 have an ADM1 key a
 
 All source rows have Animal Category = Domestic. The Species field is populated as Birds in 735 raw rows and blank on the 445 rows where New outbreaks is numeric. At the base group level, 439 of the 445 target-bearing groups have a Birds value in a companion row; six groups have no non-missing species attribute. The Serotype/Subtype/Genotype field contains 920 blanks, 253 instances of not sampled and 7 instances of not typed. At grouped level, 147 groups have one non-missing serotype/subtype label and 592 have none; no group contains multiple distinct non-missing serotype values in this extract.
 
-**Implication:** the four-field base key is useful for conservatively combining companion rows in this particular extract, but species, animal category and serotype/subtype should be retained as group attributes with ambiguity flags. They should not be silently discarded, and future extracts must be re-audited before assuming the same grain.
+**Implication:** the four-field base key is useful for conservatively combining companion rows in this particular extract, but species, animal category and serotype/subtype should be retained as group attributes with ambiguity flags. In this extract all Animal Category values are Domestic; 439 of the 445 target-bearing groups have Birds recorded on a companion row and six have no species value in any row. A non-missing serotype/subtype label exists in 147 groups (all groups have at most one distinct non-missing value); 592 groups have no non-missing serotype/subtype label. WOAH guidance asks for quantitative outbreak information by serotype where applicable, and species-level animal measures. Do not silently discard these dimensions or collapse multiple species/serotype strata into one target if a future extract contains them. The current Event_id and Outbreak_id fields are '-' placeholders in all 1,180 rows and cannot be used as event identifiers or deduplication keys.
 
 ### 1.2 Repeated-measure handling
 
@@ -45,13 +45,13 @@ The current panel helper retains a numeric measure only where the group has at m
 
 ## 2. Target semantics and missingness
 
-The 445 numeric New outbreaks values are all positive: minimum 1, median 3, mean 6.84 and maximum 184. There are no zero-valued target examples in this extract. The remaining 735 raw rows (or 294 grouped observations) have no numeric value in New outbreaks.
+The 445 numeric New outbreaks values are all positive: minimum 1, median 3, mean 6.84 and maximum 184. There are no zero-valued target examples in this extract. All 445 numeric source values occur in 2020–2025; the 2005–2019 rows have no numeric New outbreaks values in this export. The remaining 735 raw rows (or 294 grouped observations) have no numeric value in New outbreaks. Thus, although the source extract spans 2005–2025, the supervised numeric count target covers only 2020–2025.
 
-WOAH's six-monthly reporting guidance distinguishes the qualitative occurrence/absence reporting (Part 1) from quantitative information for diseases reported present (Part 2). The guidance defines new outbreaks as outbreaks that started during the reporting period and excludes outbreaks that started earlier and continued. It also uses explicit no-information/absence codes in the qualitative reporting workflow. Therefore, a missing value in this quantitative extract cannot safely be relabelled as zero or as confirmed absence.
+WOAH's six-monthly reporting guidance separates qualitative occurrence reporting (Part 1) from quantitative details for diseases reported present (Part 2). Part 1 includes explicit codes for disease present, disease absent, suspected and no information. Part 2 records quantitative information for diseases present. The guidance defines new outbreaks as outbreaks that started during the reporting period and excludes outbreaks that started earlier and continued; it asks for zero in the quantitative new-outbreak field in months where no outbreaks occurred in the monthly template. Therefore, a blank quantitative field in this extract alone cannot safely be relabelled as zero or as confirmed absence. The missing counterpart is the qualitative occurrence status, which should be obtained from WAHIS where available.
 
 **High-priority finding:** the current supervised regression dataset contains positive reported counts only. It cannot train a reliable outbreak-occurrence classifier or learn the complete distinction between present, absent and unknown. Its count predictions are conditional on a numeric count being reported in the available quantitative extract.
 
-**Recommended action:** obtain and integrate the corresponding six-monthly qualitative occurrence/absence information (or another authoritative source of confirmed zero periods). Create explicit status categories such as reported presence, confirmed absence, and unknown/not reported. Do not infer confirmed absence from a blank quantitative count. If qualitative data cannot be obtained, keep the model scope explicitly limited to estimating reported counts among observations with numeric targets.
+**Recommended action:** obtain and integrate the corresponding six-monthly qualitative occurrence information (Part 1) from WAHIS or another authoritative source. Create explicit status categories such as disease present, disease absent, suspected, no information and no quantitative count available. Preserve the distinction between a status code and the numeric Part 2 count. Do not infer confirmed absence from a blank quantitative count. If the qualitative occurrence status cannot be obtained, keep the model scope explicitly limited to estimating reported counts among observations with numeric Part 2 targets.
 
 ## 3. Historical feature timing — material issue
 
@@ -67,7 +67,7 @@ An independent check of the 1,180-row source grouped into 122 area–disease tim
 
 The saved model metadata identifies the current experiment as retrospective/end-of-semester estimation. The 27-feature model includes climate measurements from the same semester as the target. In the 445-row model evaluation dataset, 444 records have complete climate predictors and one does not.
 
-These same-period climate variables are appropriate for retrospective association or end-of-period estimation, but they would not all be available before the forecast semester begins. The current experiment therefore does not demonstrate a prospective pre-semester early warning.
+These same-period climate variables are appropriate for retrospective association or end-of-period estimation, but they would not all be available before the forecast semester begins. The current experiment therefore does not demonstrate a prospective pre-semester early warning. The target-bearing WAHIS observations themselves are also concentrated in 2020–2025, so the effective numeric-target training history is six years rather than the full 2005–2025 source span.
 
 **Recommended action:** keep the current Random Forest experiment as a clearly labelled retrospective research baseline. Build a separate prospective experiment using only predictors available at forecast issue time. Candidate inputs include calendar-aligned lagged outbreak history, historical/lagged climate information and any seasonal climate forecast that is demonstrably available at the forecast issue date. Record the forecast issue date and feature availability rules for every fold.
 
@@ -99,9 +99,17 @@ The ERA5-Land dataset page identifies the dataset as CC-BY and provides DOI 10.2
 
 **Recommended action:** replace the contradictory raw-data README with a source manifest that records provider, dataset title, retrieval/export date, query filters, temporal and geographic coverage, licence/terms, citation, version/checksum and whether public redistribution is authorised. Add a THIRD_PARTY_NOTICES file covering WOAH/WAHIS, Copernicus ERA5-Land and geoBoundaries.
 
-## 7. Product positioning and dashboard quality
+## 7. Climate reproducibility and analytical lineage
 
-WOAH's WAHIS public interface already includes dashboards, mapping tools and extraction of officially validated animal-health information. The project should not be differentiated as merely another map of WAHIS data.
+The repository includes one annual ERA5-Land NetCDF file for each year from 2019 through 2025. However, the reviewed climate exploration notebook expects prepared files `data/interim/climate/adm1_monthly_climate_2019_2025.csv`, `adm1_semester_climate_2019_2025.csv`, `climate_quality_audit.csv` and `data/interim/newcastle_climate_integration.csv`. The climate exploration notebook loads and audits these prepared files; the integration notebook then joins the semester dataset by ADM1 + year + semester. The checked notebook set and scripts directory did not expose a reproducible raw NetCDF → ADM1 monthly/semester CSV generation step.
+
+The processed/interim output files are not committed in the public repository (the data folders are intentionally ignored apart from README files). A fresh clone therefore has the raw NetCDF files but not the exact climate tables that the integration and feature-engineering notebooks expect.
+
+**High-priority reproducibility gap:** a reviewer cannot reproduce the raw-to-feature climate transformation from the current public repository alone. Document the selected ERA5-Land variables, NetCDF source version and checksums, coordinate convention, spatial aggregation method, monthly aggregation method, semester aggregation, units/conversions (especially precipitation), missing/spatial coverage handling and key uniqueness. Implement this as a tested script or module, and save small audit outputs/metadata rather than depending on untracked intermediate files.
+
+## 8. Product positioning and dashboard quality
+
+WOAH's WAHIS public interface already includes interactive mapping tools, dashboards, filtering and extraction of officially validated animal-health information. The project should not be differentiated as merely another map of WAHIS data.
 
 The stronger product proposition is a Nigeria-focused analytical layer that makes reporting coverage and uncertainty explicit, combines surveillance information with climate context, provides state/disease/semester drill-downs, and—after prospective validation—offers transparent forecasts that help animal-health professionals prioritise further investigation.
 
@@ -127,19 +135,20 @@ Every chart should support purposeful hover detail, click-to-inspect observation
 5. Clickable research explanations that show definition, calculation, denominator, source and limitations.
 6. Mobile/responsive layout and a public share/QR flow after data-use and deployment checks.
 
-## 8. Software and deployment readiness
+## 9. Software and deployment readiness
 
 The local application and current test suite have been exercised successfully by the project owner, and the merged main-branch GitHub Actions run completed successfully. However, the current GitHub workflow installs the repository-level requirements and runs the research tests; it does not separately install app/requirements.txt or perform a Streamlit application startup/smoke test.
 
 **Recommended action:** add CI coverage for the dashboard-specific dependency file, Python compilation/import checks and a lightweight Streamlit startup test. Keep Python version aligned with the tested local environment for first deployment, and verify required data/artefact paths are present in the deployed repository.
 
-## 9. Prioritised implementation order
+## 10. Prioritised implementation order
 
 | Priority | Work item | Acceptance evidence |
 |---|---|---|
 | P0 | Reconcile the source-data manifest and third-party attribution; confirm intended public/commercial reuse | Accurate repository documentation and explicit source-use decision |
-| P1 | Retain species/serotype/category attributes and ambiguity diagnostics in the analytical panel | Tests showing companion rows are consolidated without summing conflicting values or dropping source attributes |
+| P1 | Retain species/serotype/category attributes and ambiguity diagnostics in the analytical panel | Tests showing companion rows are consolidated without summing conflicting values or dropping source attributes; future multi-species or multi-serotype records remain distinguishable |
 | P1 | Replace row-shift history with calendar-aligned lags and fixed calendar rolling windows | Tests for missing intervening periods, no silent carry-back and correct t-1/t-2 joins |
+| P1 | Rebuild the ERA5-Land raw-to-ADM1-semester processing as a reproducible script | Fresh-clone execution from committed NetCDF inputs generates documented, validated monthly and semester tables |
 | P1 | Integrate authoritative presence/absence information or explicitly limit the target to observed positive counts | Labelled presence/absence/unknown dataset, or documented conditional-count scope |
 | P1 | Create a genuinely prospective forecast dataset using only issue-time-available predictors | Leakage audit, temporal split and reproducible fold dataset |
 | P1 | Re-evaluate baselines and candidate models, reserving a future/untouched evaluation period | Matched metrics and independent prospective evaluation plan |
@@ -147,7 +156,7 @@ The local application and current test suite have been exercised successfully by
 | P2 | Upgrade visual design, chart interactions, explanations and mobile accessibility | Interaction test paths, narrow-screen screenshots and accessibility checks |
 | P2 | Add dashboard smoke tests to CI and deploy publicly | GitHub checks pass and deployed URL works on desktop and mobile |
 
-## 10. Decision
+## 11. Decision
 
 **Current product status:** suitable to show as an exploratory surveillance analytics prototype, with the model explicitly labelled retrospective and development-stage.  
 **Not yet supported:** claims of validated pre-semester early-warning capability, confirmed zero-outbreak classification, population-adjusted state risk, or operational alert readiness.  
@@ -156,7 +165,8 @@ The local application and current test suite have been exercised successfully by
 ## Sources consulted
 
 - WOAH, Disease Data Collection / WAHIS public data: https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/
-- WOAH, Six-monthly Report — Notification Procedure for Terrestrial Animals (2016 guidance; definitions of new outbreaks, total outbreaks, and quantitative/qualitative reporting): https://www.woah.org/fileadmin/Home/eng/Animal_Health_in_the_World/docs/pdf/Demonstration_guides/Semestrial_Terrestrial__A_Guidelines_2016.pdf
+- WOAH, Six-monthly Report — Notification Procedure for Terrestrial Animals (2016 guidance; Part 1 occurrence codes; Part 2 quantitative data; new outbreaks start during the period; monthly zero instructions): https://www.woah.org/fileadmin/Home/eng/Animal_Health_in_the_World/docs/pdf/Demonstration_guides/Semestrial_Terrestrial__A_Guidelines_2016.pdf
+- WOAH, Terrestrial Animal Health Code, Chapter 1.1 (notification and six-monthly reporting): https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_notification.htm
 - WOAH WAHIS public interface: https://wahis.woah.org/
 - Copernicus Climate Data Store, ERA5-Land hourly data, DOI 10.24381/cds.e2161bac and CC-BY licence: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land
 - geoBoundaries country downloads, CC-BY 4.0 and attribution requirement: https://www.geoboundaries.org/countryDownloads.html
