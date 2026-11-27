@@ -1,0 +1,5 @@
+streamlit==1.67.0
+pandas==2.3.3
+numpy==2.4.6
+plotly==6.9.0
+qrcode[pil]==8.2
