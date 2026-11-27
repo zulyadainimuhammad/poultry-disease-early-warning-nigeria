@@ -202,3 +202,65 @@ A route test using the 2005 First-semester terrestrial entry (`Report ID 13426`,
 ### Required next action
 
 Download the 2025 First-semester terrestrial report PDF as a sample and inspect its full schema/content before deciding how to collect all 42 terrestrial report details. Then test a 2005 report and additional years to determine whether older report PDFs can be accessed by another public route or whether WOAH assistance is required. Do not join report-register metadata to the quantitative disease records as though it were occurrence-status data. The status data must be extracted from each underlying report (or an authoritative bulk source) and then matched using report period, disease, animal type/category/species and compatible geography.
+
+## 3.4 Sample disease-level report inspected: Nigeria, First semester 2025
+
+The project owner uploaded the full 35-page PDF for report `SMR_175738` (Nigeria, Terrestrial, First semester 2025; validated). This is the first underlying report PDF inspected from the report register. It confirms that the report contains two analytically different layers:
+
+1. **Report-level occurrence status**: the summary table and disease sections report occurrence by disease and animal category (Domestic / Wild) for the reporting period.
+2. **Detailed quantitative observations**: for diseases with detailed information, tables list month, administrative division, animal category, species/animal type, new outbreaks, total outbreaks, susceptible, cases, deaths, killed/disposed, slaughtered and vaccinated.
+
+These layers must become separate normalized tables. A country-level `Disease present` status must not be copied onto every state as if each state had a confirmed outbreak. Similarly, a state absent from the monthly quantitative table is not automatically a confirmed disease-absent state.
+
+### 3.4.1 Domestic bird occurrence-status sample
+
+| Disease | Domestic occurrence status | New outbreaks (report summary) | Total outbreaks (report summary) | Notes |
+|---|---|---:|---:|---|
+| Avian chlamydiosis | No information | — | — | Listed in the bird section with no information for domestic birds. |
+| Avian infectious bronchitis | Disease present | 28 | 29 | Detailed monthly state rows are provided. |
+| Avian infectious laryngotracheitis | Disease present | Not reported (`...`) | Not reported (`...`) | Status is present even though no numeric summary count is supplied. |
+| Fowl typhoid | Disease present | 9 | 9 | Detailed monthly state rows are provided. |
+| High pathogenicity avian influenza viruses (poultry) | Disease limited to one or more zones | 18 | 19 | Separate from the report's non-poultry / wild-bird influenza entry. Detailed H5N1 rows are provided. |
+| Infectious bursal disease (Gumboro disease) | Disease present | 36 | 39 | Detailed monthly rows include one unresolved missing outbreak-count entry. |
+| Mycoplasma gallisepticum (avian mycoplasmosis) | Disease present | 9 | 9 | Detailed monthly state rows are provided. |
+| Newcastle disease virus | Disease present | 149 | 159 | Detailed monthly state rows are provided. |
+| Pullorum disease | Disease present | 2 | 2 | Detailed monthly state rows are provided. |
+
+The report summary also provides national quantitative columns (where reported) for susceptible animals, cases, deaths, killed/disposed, slaughtered and vaccinated. These values are reproduced in the source PDF and should be retained separately from the occurrence-status label.
+
+### 3.4.2 Reconciliation checks from the detailed monthly tables
+
+- **Avian infectious bronchitis:** visible monthly state-level new-outbreak values sum to 28, matching the report summary. The monthly case and death values shown also reconcile to 2,927 cases and 106 deaths in the report summary.
+- **Fowl typhoid:** visible monthly state-level new-outbreak values sum to 9, matching the report summary (9).
+- **High pathogenicity avian influenza (poultry):** the visible H5N1 monthly state-level new-outbreak entries sum to 18, matching the summary. The detail includes months/states with `New outbreaks = 0` while `Total outbreaks` remains positive. This is an explicit zero for new outbreaks during that month, not proof that the disease was absent.
+- **Mycoplasma gallisepticum:** visible monthly state-level new-outbreak values sum to 9, matching the report summary.
+- **Infectious bursal disease:** the national summary reports 36 new outbreaks. The visible monthly detail contains 35 numeric new-outbreak values plus an Osun January row where the New outbreaks and Total outbreaks cells are blank, while susceptible = 22 and cases = 7. This is a one-count reconciliation gap pending source review; do not fill the blank with zero or silently force the detail to equal 36.
+
+These checks demonstrate why extraction needs an automated reconciliation report for every report and disease: compare sum of monthly new-outbreak flows with the report-level new-outbreak total, identify blank count fields, and preserve unresolved mismatches.
+
+### 3.4.3 Correct analytical grain and normalization
+
+Create at least two source-faithful tables:
+
+**A. `wahis_report_occurrence_status`** — one row per report ID / report-info ID / disease / animal category / occurrence code. Include report year, semester, animal type, exact source disease label, exact occurrence status and source page/section. This status is at report + animal-category level unless the report explicitly provides a finer status grain.
+
+**B. `wahis_report_monthly_quantitative_detail`** — one row per report ID / report-info ID / disease / administrative division / month / animal category / species or animal type / serotype where present. Retain all numeric measures and missingness as supplied.
+
+Keep the original report-register metadata as a third table. Join these tables only on validated keys, preserve report-info IDs and original labels, and test row counts/cardinality.
+
+### 3.4.4 Aggregation rules to apply cautiously
+
+- Monthly **New outbreaks** are period flows and can be summed to an area/disease/semester total only after reconciliation to the report summary.
+- **Total outbreaks** is a cumulative measure. Do not sum its repeated monthly values; retain the last valid month/end-of-period value for a state/disease, with a documented rule.
+- Do not automatically sum susceptible animals across months; this may be a population-at-risk stock and may be repeated/overlapping.
+- Cases, deaths, killed/disposed, slaughtered and vaccinated must be checked against source definitions and report-level reconciliation before selecting additive aggregation.
+- Keep blank / ellipsis cells as unavailable, distinct from explicit numeric zero.
+
+### 3.4.5 What this PDF does not establish
+
+- It does not provide a state-level confirmed absence label for every Nigerian state. Report-level occurrence status is by animal category; detailed geographic tables show where quantitative records were reported.
+- A status of `Disease present` does not mean the disease was reported in every state.
+- `Disease limited to one or more zones` is not the same as a state-by-state risk score.
+- The sample report is for 2025 H1 only; it cannot establish coverage or data quality for all 42 terrestrial reports.
+
+**Decision:** the sample PDF validates the two-table extraction design and gives us testable reconciliation rules. It does not justify propagating national status to states or training a state-level absence classifier. The next action is to automate extraction across the 42 terrestrial PDFs, beginning with a small test batch and preserving raw source files.
