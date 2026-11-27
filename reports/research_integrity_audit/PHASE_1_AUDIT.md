@@ -251,7 +251,7 @@ Keep the original report-register metadata as a third table. Join these tables o
 ### 3.4.4 Aggregation rules to apply cautiously
 
 - Monthly **New outbreaks** are period flows and can be summed to an area/disease/semester total only after reconciliation to the report summary.
-- **Total outbreaks** is a cumulative measure. Do not sum its repeated monthly values; retain the last valid month/end-of-period value for a state/disease, with a documented rule.
+- **Total outbreaks** is a separate source measure from New outbreaks. Do not sum repeated monthly values or assume a last-month/end-of-period interpretation until the precise temporal definition is confirmed; the same outbreak may be represented in multiple monthly observations.
 - Do not automatically sum susceptible animals across months; this may be a population-at-risk stock and may be repeated/overlapping.
 - Cases, deaths, killed/disposed, slaughtered and vaccinated must be checked against source definitions and report-level reconciliation before selecting additive aggregation.
 - Keep blank / ellipsis cells as unavailable, distinct from explicit numeric zero.
