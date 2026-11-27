@@ -171,3 +171,12 @@ The local application and current test suite have been exercised successfully by
 - Copernicus Climate Data Store, ERA5-Land hourly data, DOI 10.24381/cds.e2161bac and CC-BY licence: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land
 - geoBoundaries country downloads, CC-BY 4.0 and attribution requirement: https://www.geoboundaries.org/countryDownloads.html
 - Streamlit Community Cloud app dependency and repository structure guidance: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies
+## 3.2 Public WAHIS export route confirmed
+
+A live unauthenticated inspection on 27 November 2026 found the public navigation path **Reports → Six-monthly reports**. Filtering Country/Territory to Nigeria displayed an **Export all (59)** control that initiates an Excel (.xlsx) download. The inspected report list showed 2022–2025 and included both terrestrial and aquatic report entries. The workbook has not yet been downloaded or inspected, so the exact rows, columns, poultry production-type coverage and disease-level matching remain unverified.
+
+WOAH's public description states that the WAHIS interface contains validated data since 2005. Therefore, the 2022–2025 entries in the inspected report-list view must not be interpreted as evidence that 2005–2021 reports are unavailable. Older records need a separate query/export or support-desk investigation if the public view cannot expose them.
+
+WOAH's published reporting procedure explicitly separates Part 1 qualitative occurrence codes from Part 2 quantitative data for diseases reported present. The export should retain exact occurrence codes and status labels, including present, limited to zones, infection/infestation where applicable, absent, suspected, no information and never reported. The Part 1 status must not be collapsed into a binary label before reviewing species, animal category, production type, report period and geographic level.
+
+**Next acquisition action:** download and preserve the original Excel export using the steps in `reports/research_integrity_audit/WAHIS_PART1_EXPORT_GUIDE.md`. Inspect its schema and report grain before matching it to the current quantitative extract. Do not assume Part 1 occurrence status is reported at the same geographic grain as Part 2 quantitative data.
